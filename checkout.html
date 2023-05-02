@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body class="checkout_body">
+    <header class="header_detail">
+      <section class="header__space container fbx">
+        <a class="header__burger" href="#">
+          <button class="header__brmenu"></button>
+        </a>
+        <a href="index.html" class="header__logo">
+          <img src="./assets/images/audiophile.png" alt="logotipe audiophile" />
+        </a>
+        <nav class="header__nav openmenu">
+          <ul class="openmenu_ul fbx">
+            <li class="openmenu_ul__item-1"><a href="./index.html">Home</a></li>
+
+            <li class="openmenu_ul__item-2">
+              <div class="openmenu__picture1"></div>
+
+              <a class="openmenu_ul__link2" href="./category-headphones.html"
+                >HEADPHONES</a
+              >
+
+              <a href="category-headphones.html" class="stuff__button btn">
+                Shop<img
+                  class="stuff__arrow"
+                  src="./assets/images/arrow.png"
+                  alt="go shop pointer"
+                />
+              </a>
+            </li>
+
+            <li class="openmenu_ul__item-3">
+              <div class="openmenu__picture2"></div>
+
+              <a href="./category-speakers.html" class="openmenu_ul__link3"
+                >SPEAKERS</a
+              >
+              <a href="category-headphones.html" class="stuff__button btn">
+                Shop<img
+                  class="stuff__arrow"
+                  src="./assets/images/arrow.png"
+                  alt="go shop pointer"
+                />
+              </a>
+            </li>
+            <li class="openmenu_ul__item-4">
+              <div class="openmenu__picture3"></div>
+              <a href="./category - earphones.html" class="openmenu_ul__link4"
+                >EARPHONES</a
+              >
+              <a href="category-headphones.html" class="stuff__button btn">
+                Shop<img
+                  class="stuff__arrow"
+                  src="./assets/images/arrow.png"
+                  alt="go shop pointer"
+                />
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <img src="./assets/images/cart.png" alt="cart" />
+      </section>
+    </header>
+    <main class="main_checkout main_checkout768">
+      <div class="back_checkout768 container back back_checkout">
+        <a href="#" class="back">Go Back</a>
+      </div>
+
+      <!-- форма Billing Details -->
+
+      <div class="wrapper_checkout768 wrapper container fbx">
+        <div class="checkout768 checkout container">
+          <h1>CHECKOUT</h1>
+
+          <form action="#" method="post" class="checkout__billingdetails">
+            <fieldset class="checkout__fieldset">
+              <legend>Billing Details</legend>
+
+              <div class="checkout__wrapper_namemail fbx">
+                <label for="checkout__name"
+                  >Name
+                  <input
+                    class="input_name"
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Alexei Ward"
+                  />
+                </label>
+                <label for="email"
+                  >Email Address
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="alexei@mail.com"
+                /></label>
+              </div>
+
+              <label for="phonenumber">Phone Number</label>
+              <input
+                type="tel"
+                name="phonenumber"
+                id="phonenumber"
+                placeholder="+1 202-555-0136"
+                maxlength="12"
+              />
+            </fieldset>
+          </form>
+          <!-- форма shipping info -->
+
+          <form action="#" method="post" class="checkout__shippinginfo">
+            <fieldset class="checkout__fieldset">
+              <legend>shipping info</legend>
+
+              <label for="adress">Address</label>
+              <input
+                class="input_adress"
+                type="text"
+                name="adress"
+                id="adress"
+                placeholder="1137 Williams Avenue"
+              />
+
+              <div class="checkout__wrapper_namemail fbx">
+                <label for="zipcode"
+                  >ZIP Code
+                  <input
+                    class="input_zipcode"
+                    type="text"
+                    name="zipcode"
+                    id="zipcode"
+                    placeholder="10001"
+                    maxlength="5"
+                  />
+                </label>
+                <label for="city"
+                  >City
+                  <input
+                    type="text"
+                    name="city"
+                    id="city"
+                    placeholder="New York"
+                /></label>
+              </div>
+
+              <label for="country">Country</label>
+              <input
+                type="text"
+                name="country"
+                id="country"
+                placeholder="United States"
+              />
+            </fieldset>
+          </form>
+
+          <!--форма payment details -->
+
+          <form action="#" method="post">
+            <fieldset class="payment">
+              <legend class="payment__legend">payment details</legend>
+
+              <div class="payment__method fbx">
+                <div class="payment__wrapp_title">
+                  <span class="payment__title">Payment Method</span>
+                </div>
+                <div class="payment__wrapp_methods fbx">
+                  <div class="payment__method-1">
+                    <input
+                      class="payment__radio"
+                      type="radio"
+                      id="emoney"
+                      name="payment"
+                      value="emoney"
+                    />
+                    <label class="payment__label_radio" for="emoney"
+                      >e-Money</label
+                    >
+                  </div>
+
+                  <div class="payment__method-2">
+                    <input
+                      class="payment__radio"
+                      type="radio"
+                      id="cash"
+                      name="payment"
+                      value="cash-on-delivery"
+                    />
+                    <label for="cash">Cash on Delivery</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="payment__emoney fbx">
+                <label for="emoney_number"
+                  >e-Money Number
+                  <input
+                    type="number"
+                    name="emoney_number"
+                    id="emoney_number"
+                    placeholder="238521993"
+                    maxlength="9"
+                  />
+                </label>
+
+                <label for="emoney_pin"
+                  >e-Money PIN
+                  <input
+                    type="number"
+                    name="emoney_pin"
+                    id="emoney_pin"
+                    placeholder="6891"
+                  />
+                </label>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+
+        <div class="summary768 summary container">
+          <h2>summary</h2>
+          <div class="summary768modal__item-1 modal__item-1 fbx">
+            <div class="modal__photo-1"></div>
+
+            <div class="summary768modal__wr_nameprise modal__wr_nameprise">
+              <p class="summary768modal__name modal__name">XX99 MK II</p>
+              <p class="modal__price">$ 2,999</p>
+            </div>
+            <div class="qnt">
+              <span>x1</span>
+            </div>
+          </div>
+          <div class="summary768modal__item-2 modal__item-2 fbx">
+            <div class="modal__photo-2"></div>
+
+            <div class="summary768modal__wr_nameprise modal__wr_nameprise">
+              <p class="summary768modal__name modal__name">XX59</p>
+              <p class="modal__price">$ 899</p>
+            </div>
+            <div class="qnt">
+              <span>x2</span>
+            </div>
+          </div>
+
+          <div class="summary768modal__item-3 modal__item-3 fbx">
+            <div class="modal__photo-3"></div>
+            <div class="summary768modal__wr_nameprise modal__wr_nameprise">
+              <p class="summary768modal__name modal__name">YX1</p>
+              <p class="modal__price">$ 599</p>
+            </div>
+            <div class="qnt">
+              <span>x1</span>
+            </div>
+          </div>
+          <div class="total fbx">
+            <h5 class="total__title">TOTAL</h5>
+            <p class="total__sum">$ 5,396</p>
+          </div>
+          <div class="total fbx">
+            <h5 class="total__title">SHIPPING</h5>
+            <p class="total__sum">$ 50</p>
+          </div>
+
+          <div class="total fbx">
+            <h5 class="total__title">VAT (INCLUDED)</h5>
+            <p class="total__sum">$ 1,079</p>
+          </div>
+
+          <div class="total__grand fbx">
+            <h5 class="total__title">GRAND TOTAL</h5>
+            <p class="total__sum">$ 5,446</p>
+          </div>
+          <button class="modal768_checkcart_button modal__checkcart_button btn">
+            CONTINUE & PAY
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Модальне вікно Thank for order -->
+
+    <div class="overlay_checkout">
+      <article class="thanksfororder container">
+        <img
+          class="thanksfororder__check"
+          src="./assets/images/detail/icon check.png"
+          alt="icon check"
+        />
+        <h1 class="thanksfororder__h1">
+          THANK YOU <br />
+          FOR YOUR ORDER
+        </h1>
+        <p class="thanksfororder__p">
+          You will receive an email confirmation shortly.
+        </p>
+        <div class="thanksfororder__wrthanks fbx">
+          <div class="thanksfororder__content_order">
+            <div class="thanksfororder__purchase fbx">
+              <img
+                src="./assets/images/detail/cart_mini/headphone_order.png"
+                alt="purchase picture"
+              />
+
+              <div class="thanksfororder__products_order fbx">
+                XX99 MK II
+                <span class="thanksfororder__prises">$ 2,999</span>
+              </div>
+
+              <div class="thanksfororder__quant">x1</div>
+            </div>
+
+            <a href=""
+              ><span class="thanksfororder__span_otherproduct"
+                >and 2 other item(s)</span
+              ></a
+            >
+          </div>
+
+          <div class="thanksfororder__total_sum fbx">
+            <div class="thanksfororder__total">GRAND TOTAL</div>
+            <span class="thanksfororder__sum">$ 5,446</span>
+          </div>
+        </div>
+
+        <a href="index.html"
+          ><button class="thanksfororder__button_order btn" type="button">
+            BACK TO HOME
+          </button></a
+        >
+      </article>
+    </div>
+
+    <!-- Thank for order Modal Active -->
+
+    <div class="overlay">
+      <article class="_thanksfororder">
+        <img
+          class="_thanksfororder__check"
+          src="./assets/images/detail/icon check.png"
+          alt="icon check"
+        />
+        <h1 class="_thanksfororder__h1">
+          THANK YOU <br />
+          FOR YOUR ORDER
+        </h1>
+        <p class="_thanksfororder__p">
+          You will receive an email confirmation shortly.
+        </p>
+
+        <div class="_thanksfororder__wrthanks fbx">
+          <div class="_thanksfororder__content_order">
+            <div class="_thanksfororder__purchase1 fbx">
+              <img
+                src="./assets/images/detail/cart_mini/headphone_order.png"
+                alt="purchase picture"
+              />
+
+              <div class="_thanksfororder__products_order fbx">
+                XX99 MK II
+                <span class="_thanksfororder__prises">$ 2,999</span>
+              </div>
+
+              <div class="_thanksfororder__quant">x1</div>
+            </div>
+
+            <div class="_thanksfororder__purchase2 fbx">
+              <img
+                src="./assets/images/detail/cart_mini/2_headphone_order.png"
+                alt="purchase picture"
+              />
+
+              <div class="_thanksfororder__products_order fbx">
+                XX59
+                <span class="_thanksfororder__prises">$ 899</span>
+              </div>
+
+              <div class="_thanksfororder__quant">x2</div>
+            </div>
+
+            <div class="_thanksfororder__purchase3 fbx">
+              <img
+                src="./assets/images/detail/cart_mini/earphone_phone_order.png"
+                alt="purchase picture"
+              />
+
+              <div class="_thanksfororder__products_order fbx">
+                YX1
+                <span class="_thanksfororder__prises">$ 599</span>
+              </div>
+
+              <div class="_thanksfororder__quant">x1</div>
+            </div>
+
+            <a href=""
+              ><span class="_thanksfororder__span_otherproduct"
+                >View less</span
+              ></a
+            >
+          </div>
+
+          <div class="_thanksfororder__total_sum fbx">
+            <div class="_thanksfororder__total">GRAND TOTAL</div>
+            <span class="_thanksfororder__sum">$ 5,446</span>
+          </div>
+        </div>
+
+        <a href="index.html"
+          ><button class="_thanksfororder__button_order btn" type="button">
+            BACK TO HOME
+          </button></a
+        >
+      </article>
+    </div>
+
+    <footer class="footer_bkg">
+      <div class="footer_bkg__line container"></div>
+      <section class="bottomheader fbx container">
+        <a href="index.html">
+          <img src="./assets/images/audiophile.png" alt="logotipe audiophile" />
+        </a>
+
+        <nav class="bottomheader__nav">
+          <ul class="fbx bottomheader__ul">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./category-headphones.html">HEADPHONES</a></li>
+            <li><a href="./category-speakers.html">SPEAKERS</a></li>
+            <li><a href="./category - earphones.html">EARPHONES</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <article class="final container fbx">
+        <p class="final__text">
+          Audiophile is an all in one stop to fulfill your audio needs. We're a
+          small team of music lovers and sound specialists who are devoted to
+          helping you get the most out of personal audio. Come and visit our
+          demo facility - we’re open 7 days a week.
+        </p>
+        <div class="final__socialpage fbx">
+          <a><div class="final__socialpage-fb"></div></a>
+          <a><div class="final__socialpage-tw"></div></a>
+          <a><div class="final__socialpage-insta"></div></a>
+        </div>
+      </article>
+      <p class="copyright container">Copyright 2021. All Rights Reserved</p>
+    </footer>
+  </body>
+</html>

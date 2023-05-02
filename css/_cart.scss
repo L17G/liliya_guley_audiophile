@@ -1,0 +1,140 @@
+.overlay_cart {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 100;
+  display: block;
+}
+
+.modal {
+  
+  display: block;
+  position: absolute;
+  right:50%;
+  top: 25%;
+
+
+  &__wrapper {
+    max-width: 377px;
+    min-height: 488px;
+    background-color: #ffffff;
+    padding: 31px 32px;
+    border-radius: 8px;
+  }
+
+  &__top {
+    margin-bottom: 31px;
+  }
+
+  &__pdct_count {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    color: #000;
+  }
+
+  &__btn_reset {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    color: $f-c-b05;
+    transition: all 0.5s ease-in-out;
+  }
+  &__btn_reset:hover{
+    color: $orange;
+  }
+  &__item-1,
+  &__item-2,
+  &__item-3 {
+    justify-content: flex-start;
+    margin-bottom: 24px;
+   
+  }
+
+  &__photo {
+    &-1 {
+      width: 64px;
+      height: 64px;
+      background-color: $bkg-section;
+      background-image: url(../assets/images/detail/cart_mini/xx99mk2_cart.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 8px;
+      margin-right: 16px;
+    }
+    &-2 {
+      width: 64px;
+      height: 64px;
+      background-color: $bkg-section;
+      background-image: url(../assets/images/detail/cart_mini/xx59_cart.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 8px;
+      margin-right: 16px;
+    }
+    &-3 {
+      width: 64px;
+      height: 64px;
+      background-color: $bkg-section;
+      background-image: url(../assets/images/detail/cart_mini/ux1_cart.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 8px;
+      margin-right: 16px;
+    }
+  }
+
+  &__wr_nameprise {
+    width: 153px;
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000;
+  }
+
+  &__price {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    color: $f-c-b05;
+  }
+
+  &__cart__button {
+    width: 313px;
+    
+  }
+}
+
+.quantity.quantity_cart {
+  @extend %quantity;
+  min-width: 96px;
+  height: 32px;
+  gap: 15px;
+}
+
+.total {
+  &__title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: $f-c-b05;
+    text-transform: uppercase;
+  }
+
+  &__sum {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000;
+  }
+}

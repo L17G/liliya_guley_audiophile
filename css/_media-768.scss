@@ -1,0 +1,1083 @@
+@media (max-width: 768px) {
+  .container {
+    max-width: 709px;
+    align-items: center;
+  }
+  main {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  header {
+    border-radius: 0px;
+    position: relative;
+  }
+  .openmenu_ul .openmenu_ul__item-2 .stuff__button,
+  .openmenu_ul .openmenu_ul__item-3 .stuff__button,
+  .openmenu_ul .openmenu_ul__item-4 .stuff__button {
+    display: block;
+  }
+  .header {
+    &__bkg {
+      background-image: url(../assets/images/Bitmap.png);
+      background-repeat: no-repeat;
+    }
+    &__burger {
+      padding-bottom: 10px;
+    }
+    &__brmenu {
+      width: 16px;
+      height: 9px;
+      border: 3px solid #fff;
+      border-width: 3px 0;
+      position: relative;
+    }
+    &__brmenu::after {
+      content: "";
+      width: 16px;
+      height: 3px;
+      border: 3px solid #fff;
+      border-width: 3px 0 0;
+      position: absolute;
+      top: -10px;
+      left: 0;
+    }
+    &__cart {
+      margin-left: auto;
+    }
+    &__nav {
+      display: none;
+    }
+    &__content {
+      text-align: center;
+      padding-top: 126px;
+      padding-bottom: 167px;
+    }
+    &__space {
+      padding-bottom: 32px;
+      justify-content: flex-start;
+      gap: 42px;
+    }
+  }
+  .header__burger {
+    display: block;
+  }
+  // ТУТ МОЖНА ЗРОБИТИ ВИДИМИМ МЕНЮ
+  header .openmenu {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    top: 96px;
+    width: 100%;
+    height: 100vh;
+  }
+  header .openmenu_ul {
+    justify-content: center;
+    background-color: #fff;
+    height: 340px;
+    width: 100%;
+    border-radius: 0px 0px 8px 8px;
+
+    &__item {
+      &-1 {
+        display: none;
+      }
+
+      &-2,
+      &-3,
+      &-4 {
+        display: flex;
+        flex-direction: column;
+        background: #f1f1f1;
+        border-radius: 8px;
+        position: relative;
+        width: 223px;
+        height: 165px;
+        text-align: center;
+      }
+    }
+  }
+  .openmenu__picture1 {
+    min-width: 94px;
+    min-height: 145px;
+    background-image: url(../assets/images/adapt375/hdph_menu.png);
+    background-repeat: no-repeat;
+    margin-top: -50px;
+    margin-left: 15px;
+  }
+  .openmenu__picture2 {
+    min-width: 94px;
+    min-height: 145px;
+    background-image: url(../assets/images/adapt375/spk_menu.png);
+    background-repeat: no-repeat;
+    margin-top: -50px;
+    margin-left: 21px;
+  }
+
+  .openmenu__picture3 {
+    min-width: 94px;
+    min-height: 145px;
+    background-image: url(../assets/images/adapt375/earph_menu.png);
+    background-repeat: no-repeat;
+    margin-top: -50px;
+    margin-left: 24px;
+  }
+
+  .openmenu_ul li a {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1.07143px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 16px;
+  }
+  .openmenu_ul li a.stuff__button {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $f-c-b05;
+  }
+
+  .stuff {
+    padding-top: 148px;
+    padding-bottom: 96px;
+
+    &__item1,
+    &__item2,
+    &__item3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      @include stuff_tablet;
+    }
+    h2 {
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 1.07143px;
+      text-transform: uppercase;
+      color: #000;
+      margin-top: 88px;
+    }
+    &__imgtop {
+      width: 147px;
+    }
+  }
+
+  .zx9speaker {
+    height: 720px;
+    padding-bottom: 32px;
+
+    &__bkg {
+      padding-top: 52px;
+      background-image: url(../assets/images/rings_adaptive.png);
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      gap: 64px;
+    }
+
+    &__photo {
+      background-image: url(../assets/images/zx9-speaker_adap768.png);
+      background-position: top;
+      width: 198px;
+      height: 237px;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &-title,
+      &-text {
+        text-align: center;
+      }
+
+      &-button {
+        margin-bottom: 64px;
+      }
+    }
+  }
+  .zx7speaker {
+    padding-top: 32px;
+    &__bkg {
+      background-image: url(../assets/images/zx7-speaker_adapt768.png);
+    }
+  }
+  .yx1earphones {
+    padding-top: 32px;
+    padding-bottom: 96px;
+    gap: 11px;
+
+    &__photo {
+      width: 339px;
+      height: 320px;
+      background-image: url(../assets/images/YX1-earphones_adapt768.jpg);
+      border-radius: 8px;
+    }
+
+    &__content {
+      width: 339px;
+      height: 320px;
+      padding: 101px 41px 101px 51px;
+    }
+  }
+  .promo {
+    flex-direction: column-reverse;
+    padding-bottom: 80px;
+    // padding-top: 120px;
+    gap: 63px;
+
+    &__title {
+      text-align: center;
+      margin: auto;
+      max-width: 573px;
+      margin-bottom: 32px;
+    }
+
+    &__text {
+      max-width: 573px;
+      text-align: center;
+    }
+
+    &__photo {
+      width: 689px;
+      height: 300px;
+      background-image: url(../assets/images/man_adapt768.png);
+    }
+  }
+  .footer_bkg {
+    height: 400px;
+    &__line {
+      padding-bottom: 56px;
+      transform: translate(-293%);
+    }
+    .bottomheader {
+      flex-direction: column;
+      align-items: start;
+      gap: 32px;
+    }
+    .final {
+      flex-direction: column;
+      align-items: end;
+      gap: 80px;
+      margin-bottom: 0;
+      position: relative;
+
+      &__text {
+        width: 689px;
+      }
+    }
+    .copyright {
+      min-width: 258px;
+      text-align: start;
+      position: absolute;
+      transform: translate(10%, -85%);
+    }
+  }
+  // Стилі до Category - Headphones
+  .header2 {
+    background: #000;
+  }
+
+  // .header__nav {
+  //   display: none;
+  // }
+
+  .XX99markII {
+    flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    align-items: center;
+    padding-top: 0;
+    justify-content: flex-start;
+
+    &__photo {
+      width: 689px;
+      height: 352px;
+      background-image: url(../assets/images/adapt768/xx99mark_II_adapt768.png);
+    }
+
+    &__content {
+      padding-top: 52px;
+      align-items: center;
+
+      &-title {
+        text-align: center;
+      }
+
+      &-text {
+        text-align: center;
+        width: 572px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .XX99markI {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 120px;
+
+    &__content {
+      padding-top: 52px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-items: center;
+      &-title {
+        text-align: center;
+      }
+
+      &-text {
+        text-align: center;
+        width: 572px;
+        margin-bottom: 24px;
+      }
+    }
+
+    &__photo {
+      background-image: url(../assets/images/adapt768/xx99mark_I_adapt768.png);
+      width: 689px;
+      max-height: 352px;
+    }
+  }
+  .XX59 {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+    &__photo {
+      background-image: url(../assets/images/adapt768/xx59_adapt768.png);
+      width: 689px;
+      max-height: 352px;
+    }
+
+    &__content {
+      padding-top: 52px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-title {
+        text-align: center;
+      }
+
+      &-text {
+        text-align: center;
+        width: 572px;
+        margin-bottom: 24px;
+      }
+    }
+  }
+  // стилі до Category - Speakers 768
+  .zx9speaker3 {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 0;
+    gap: 0;
+    &__photo {
+      width: 689px;
+      max-height: 352px;
+      background-image: url(..//assets/images/adapt768/zx9speaker_adapt768.png);
+      background-position: center;
+    }
+    &__content {
+      padding-top: 52px;
+      padding-bottom: 120px;
+      max-width: 572px;
+      max-height: 474px;
+      align-items: center;
+      justify-content: flex-start;
+      &-title {
+        text-align: center;
+      }
+      &-text {
+        text-align: center;
+        width: 572px;
+        margin-bottom: 24px;
+      }
+    }
+  }
+  .zx7speaker3 {
+    flex-direction: column-reverse;
+    gap: 52px;
+    padding-bottom: 34px;
+
+    &__content {
+      padding-top: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &-title {
+        text-align: center;
+      }
+
+      &-text {
+        text-align: center;
+        width: 572px;
+        margin-bottom: 24px;
+      }
+    }
+
+    &__photo {
+      background-image: url(../assets/images/adapt768/zx7speaker_adapt768.png);
+      width: 689px;
+      max-height: 352px;
+      background-position: center;
+    }
+  }
+  // стилі Category-Earphones 768
+  .YX1Wireless {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    gap: 52px;
+    padding-bottom: 0;
+
+    &__photo {
+      background-image: url(../assets/images/adapt768/yx1wireless_adapt768.png);
+      width: 689px;
+      max-height: 352px;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 302px;
+      margin-bottom: 24px;
+
+      &-title {
+        text-align: center;
+      }
+
+      &-text {
+        text-align: center;
+        width: 572px;
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  // Стилі Detail-Headphones-1_768
+
+  .header_detail {
+    background: #000;
+    border-radius: 0px;
+    max-height: 90px;
+  }
+
+  .back {
+    padding-top: 33px;
+    padding-bottom: 24px;
+  }
+
+  .XX99markII_detail {
+    display: flex;
+    flex-direction: row;
+    gap: 69px;
+
+    &__photo {
+      width: 281px;
+      height: 480px;
+      background-image: url(../assets/images/adapt768/xx99mark_II_adapt768.png);
+    }
+
+    &__content {
+      width: 340px;
+      min-height: 390px;
+      padding-top: 0;
+      gap: 17px;
+
+      &-strong {
+        margin-bottom: 17px;
+      }
+
+      &-title {
+        text-align: start;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #000;
+        margin-bottom: 15px;
+      }
+
+      &-text {
+        width: 340px;
+        text-align: start;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: $f-c-b05;
+        margin-bottom: 0px;
+      }
+    }
+    &__price {
+      margin: 14px;
+    }
+  }
+  .aboutproduct .aboutproduct__future{
+    max-width: 689px;
+    &__future-text{
+      max-width: 689px;
+    }
+  }
+
+  .aboutproduct {
+    flex-direction: column;
+    padding-top: 0;
+    gap: 120px;
+
+ &__inbox {
+
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      gap: 164px;
+      margin-bottom: 0;
+      width: 690px;
+    }
+
+  }
+  
+  .photos {
+    padding: 120px 10px;
+    gap: 18px;
+
+    &__wrsmall {
+      gap: 20px;
+    }
+    &__1small {
+      background-image: url(../assets/images/adapt768/detail768/1smallheadhpone-1.png);
+      width: 277px;
+      height: 174px;
+    }
+
+    &__2small {
+      background-image: url(../assets/images/adapt768/detail768/2smallheadhpone-1.png);
+      width: 277px;
+      height: 174px;
+    }
+
+    &__big {
+      background-image: url(../assets/images/adapt768/detail768/big_headhpone-1.png);
+      background-repeat: no-repeat;
+      width: 395px;
+      height: 368px;
+    }
+  }
+  .more_products {
+    min-height: 563px;
+    padding-bottom: 28px;
+
+    &__title {
+      margin-bottom: 56px;
+    }
+
+    &__item1 {
+      &-1,
+      &-2,
+      &-3 {
+        width: 223px;
+        height: 318px;
+        background-color: $bkg-section;
+        border-radius: 8px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 40px;
+      }
+
+      &-1 {
+        background-image: url(../assets/images/adapt768/detail768/xx99mark_I_adapt768_detailAlso.png);
+      }
+
+      &-2 {
+        background-image: url(../assets/images/adapt768/detail768/xx59_adapt768_detailAlso.png);
+      }
+
+      &-3 {
+        background-image: url(../assets/images/adapt768/detail768/zx9speaker_adapt768_detailAlso.png);
+      }
+    }
+  }
+  // стилі  Product Detail - Headphones - 2
+
+  .XX99markI_detail {
+    padding-bottom: 120px;
+    &__detail2photo {
+      width: 281px;
+      height: 480px;
+      background-image: url(../assets/images/adapt768/detail768/xx99mark_I_detailMain.png);
+    }
+
+    &__content {
+      width: 340px;
+      max-height: 390px;
+      padding-top: 0;
+      gap: 17px;
+
+      &-title {
+        text-align: start;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #000;
+        margin-bottom: 15px;
+      }
+      &-text {
+        width: 340px;
+        text-align: start;
+      }
+    }
+  }
+  .aboutproduct .aboutproduct__future{
+    max-width: 689px;
+    &__future-text{
+      max-width: 689px;
+    }
+  }
+
+  .photos {
+    padding: 120px 10px;
+    gap: 18px;
+
+    &__wrsmall {
+      gap: 20px;
+    }
+    &__1smalldetail_2headphones {
+      background-image: url(../assets/images/adapt768/detail768/1smallheadhpone-2.png);
+      width: 277px;
+      height: 174px;
+    }
+
+    &__2smalldetail_2headphones {
+      background-image: url(../assets/images/adapt768/detail768/2smallheadhpone-2.png);
+      width: 277px;
+      height: 174px;
+    }
+
+    &__bigdetail_2headphones {
+      background-image: url(../assets/images/adapt768/detail768/big_headhpone-2.png);
+      background-repeat: no-repeat;
+      width: 395px;
+      height: 368px;
+    }
+  }
+  .more_products {
+    min-height: 563px;
+    padding-bottom: 28px;
+
+    &__item2 {
+      &-1,
+      &-2,
+      &-3 {
+        width: 223px;
+        height: 318px;
+        background-color: $bkg-section;
+        border-radius: 8px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 40px;
+      }
+    }
+  }
+  // // стилі  Product Detail - Headphones - 3
+
+  .XX59_detail3 {
+    padding-bottom: 120px;
+    &__photo {
+      width: 281px;
+      height: 480px;
+      background-image: url(../assets/images/adapt768/detail768/xx59_detail768main.png);
+    }
+
+    &__content {
+      width: 340px;
+      height: 390px;
+      padding-top: 0;
+      gap: 17px;
+
+      &-title {
+        text-align: start;
+      }
+
+      &-text {
+        text-align: start;
+        width: 339px;
+      }
+    }
+  }
+
+  .aboutproduct .aboutproduct__future{
+    max-width: 689px;
+    &__future-text{
+      max-width: 689px;
+    }
+  }
+
+  .XX59_detail_photos {
+    padding: 120px 10px;
+    gap: 18px;
+
+    &__small1 {
+      background-image: url(../assets/images/adapt768/detail768/1smallheadhpone-3.png);
+      width: 277px;
+      height: 174px;
+    }
+
+    &__small2 {
+      background-image: url(../assets/images/adapt768/detail768/2smallheadhpone-3.png);
+      width: 277px;
+      height: 174px;
+    }
+
+    &__big {
+      background-image: url(../assets/images/adapt768/detail768/big_headhpone-3.png);
+      background-repeat: no-repeat;
+      width: 395px;
+      height: 368px;
+    }
+  }
+  .more_products3 {
+    min-height: 563px;
+    padding-bottom: 28px;
+
+    &__title {
+      margin-bottom: 56px;
+    }
+
+    &__item3 {
+      &-1,
+      &-2,
+      &-3 {
+        width: 223px;
+        height: 318px;
+        background-color: $bkg-section;
+        border-radius: 8px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 40px;
+      }
+      &-1 {
+        background-image: url(../assets/images/adapt768/detail768/xx99Mark_II_adapt768_detailAlso.png);
+      }
+
+      &-2 {
+        background-image: url(../assets/images/adapt768/detail768/xx99mark_I_adapt768_detailAlso.png);
+      }
+
+      &-3 {
+        background-image: url(../assets/images/adapt768/detail768/zx9speaker_adapt768_detailAlso.png);
+      }
+    }
+  }
+
+  // стилі Product Detail-Speakers-1
+  .zx9speaker_detail_1 {
+    padding-top: 0;
+    padding-bottom: 120px;
+    gap: 69px;
+
+    &__photo {
+      width: 281px;
+      height: 480px;
+      background-image: url(../assets/images/adapt768/detail768/zx9speaker_adapt768_detailMain.png);
+      background-position: center;
+    }
+    &__content {
+      width: 340px;
+      max-height: 390px;
+      padding-top: 0;
+      gap: 17px;
+
+      &-title {
+        text-align: start;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: 1px;
+        color: #000;
+        margin-bottom: 15px;
+        width: 150px;
+      }
+      &-text {
+        width: 340px;
+        text-align: start;
+      }
+    }
+  }
+
+  .aboutproduct .aboutproduct__future{
+    max-width: 689px;
+    &__future-text{
+      max-width: 689px;
+    }
+  }
+
+  .photozx9speaker_photos {
+    padding-top: 120px;
+    &__1small,
+    &__2small {
+      width: 277px;
+      height: 174px;
+    }
+    &__1small {
+      background-image: url(../assets/images/adapt768/detail768/1smallSpeaker-1.png);
+    }
+
+    &__2small {
+      background-image: url(../assets/images/adapt768/detail768/2smallSpeaker-1.png);
+    }
+
+    &__big {
+      background-image: url(../assets/images/adapt768/detail768/1_big_Speaker-1.png);
+      width: 395px;
+      height: 368px;
+    }
+  }
+  .zx9speaker_moreproducts {
+    &__item1,
+    &__item2,
+    &__item3 {
+      width: 223px;
+      height: 318px;
+      background-color: $bkg-section;
+      border-radius: 8px;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-bottom: 40px;
+    }
+    &__item1 {
+      background-image: url(../assets/images/adapt768/detail768/zx7speaker_adapt768Also.png);
+    }
+
+    &__item2 {
+      background-image: url(../assets/images/adapt768/detail768/xx99mark_I_adapt768_detailAlso.png);
+    }
+
+    &__item3 {
+      background-image: url(../assets/images/adapt768/detail768/xx59_adapt768_detailAlso.png);
+    }
+  }
+  // стилі Product Detail-Speakers-2
+  .zx7speaker_detail2 {
+    display: flex;
+    gap: 69px;
+    padding-bottom: 120px;
+
+    &__photo {
+      width: 281px;
+      height: 480px;
+      background-image: url(../assets/images/adapt768/detail768/zx7speaker_adapt768_detailMain.png);
+      background-position: center;
+    }
+    &__content {
+      width: 340px;
+      &-title {
+        font-size: 28px;
+        line-height: 32px;
+      }
+
+      &-text {
+        width: 323px;
+      }
+    }
+  }
+
+  .aboutproduct .aboutproduct__future{
+    
+   
+    max-width: 689px;
+    &__future-text{
+      max-width: 689px;
+    }
+  }
+
+  .photozx7speaker_detail2 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    &__1small,
+    &__2small {
+      width: 277px;
+      height: 174px;
+    }
+    &__1small {
+      background-image: url(../assets/images/adapt768/detail768/1smallSpeaker-2.png);
+    }
+
+    &__2small {
+      background-image: url(../assets/images/adapt768/detail768/2smallSpeaker-2.png);
+    }
+
+    &__big {
+      background-image: url(../assets/images/adapt768/detail768/2_big_Speaker.png);
+      width: 395px;
+      height: 368px;
+    }
+  }
+  .photozx7speaker_moreproducts {
+    padding-bottom: 20px;
+    &__1item,
+    &__2item,
+    &__3item {
+      width: 223px;
+      height: 318px;
+      background-color: $bkg-section;
+      border-radius: 8px;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-bottom: 40px;
+    }
+    &__1item {
+      background-image: url(../assets/images/adapt768/detail768/zx9speaker_adapt768_detailAlso.png);
+    }
+    h3{
+      margin-bottom: 56px;
+    }
+  }
+  // стилі Product Detail-Earphones
+
+  .yx1wirreless_detail {
+    display: flex;
+    gap: 69px;
+    padding-bottom: 120px;
+		&__photo {
+
+        width: 281px;
+        height: 480px;
+        background-image: url(../assets/images/adapt768/detail768/yx1_adapt768_detailMain.png);
+        background-position: center;
+      }
+		
+
+		&__content {
+      width: 340px;
+		
+			&-title {
+        font-size: 28px;
+        line-height: 32px;
+        text-align: start;
+			}
+
+			&-text {
+        width: 323px;
+        text-align: start;
+			}
+		}
+}
+
+.aboutproduct .aboutproduct__future{
+  max-width: 689px;
+  &__future-text{
+    max-width: 689px;
+  }
+}
+  
+  .photosyx1wirreless {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+&__wrsmall{
+  gap: 20px;
+}
+
+    &__1small,
+    &__2small {
+      width: 277px;
+      height: 174px;
+    }
+    &__1small {
+      background-image: url(../assets/images/adapt768/detail768/1small_YX1adapt768.png);
+    }
+    &__2small {
+      background-image: url(../assets/images/adapt768/detail768/2small_YX1adapt768.png);
+    }
+
+    &__big {
+      background-image: url(../assets/images/adapt768/detail768/big_YX1adapt768.png);
+      width: 395px;
+      height: 368px;
+    }
+  }
+  .yx1wirreless_moreproducts {
+    &__1item,
+    &__2item,
+    &__3item {
+      width: 223px;
+      height: 318px;
+      background-color: $bkg-section;
+      border-radius: 8px;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-bottom: 40px;
+    }
+    &__1item {
+      background-image: url(../assets/images/adapt768/detail768/xx99mark_I_adapt768_detailAlso.png);
+    }
+
+    &__2item {
+      background-image: url(../assets/images/adapt768/detail768/xx59_adapt768_detailAlso.png);
+    }
+
+    &__3item {
+      background-image: url(../assets/images/adapt768/detail768/zx9speaker_adapt768_detailAlso.png);
+    }
+  }
+
+// cart
+.overlay{
+  display: block;
+}
+.modal{
+  display: block;
+  top:  55%;
+  left: 25%;
+  
+}
+
+  // стилі для checkout
+  .overlay_checkout{
+    // display: none;
+    display: block;
+  }
+  .main_checkout768 {
+    padding-bottom: 116px;
+  }
+  .back_checkout768 {
+    max-width: 689px;
+    padding-top: 48px;
+  }
+  .wrapper_checkout768 {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .checkout768 {
+    max-width: 689px;
+    padding: 31px 27px 28px;
+  }
+  ._thanksfororder{
+     position: absolute;
+  top: 65%;
+  left: 50%;
+  }
+ 
+  .summary768 {
+    min-width: 689px;
+    min-height: 612px;
+  }
+  .modal768_checkcart_button {
+    width: 623px;
+    min-height: 48px;
+
+    &__wr_nameprise {
+      min-width: 523px;
+    }
+  }
+}

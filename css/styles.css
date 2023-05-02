@@ -1,0 +1,3833 @@
+html,
+body,
+ul,
+h1,
+h4,
+h3,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+}
+
+input {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+fieldset {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+legend {
+  padding: 0;
+  border: none;
+}
+
+body {
+  position: relative;
+}
+
+.btn {
+  border: none;
+  font: inherit;
+  color: inherit;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #d87d4a;
+  padding: 15px 30.5px;
+  min-width: 160px;
+  transition: all 0.5s ease-in-out;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #fbaf85;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.fbx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.zx9speaker__content-title, .header__content h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.yx1wirreless_detail__content-title, .zx7speaker_detail2__content-title, .zx9speaker_detail_1__content-title, .XX59_detail3__content-title, .XX99markI_detail__content-title, .YX1Wireless__content-title, .zx7speaker3__content-title, .zx9speaker3__content-title, .XX59__content-title, .XX99markI__content-title, .XX99markII__content-title, .header2 h1, .promo__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.42857px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.yx1wirreless_detail__content-text, .zx7speaker_detail2__content-text, .zx9speaker_detail_1__content-text, .XX59_detail3__content-text, .XX99markI_detail__content-text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 40px;
+}
+
+.aboutproduct__inbox, .aboutproduct__future-text, .aboutproduct__future-text2, .XX99markII_detail__text, .YX1Wireless__content-text, .zx7speaker3__content-text, .zx9speaker3__content-text, .XX59__content-text, .XX99markI__content-text, .XX99markII__content-text, .final__text, .promo__text, .zx9speaker__content-text, .header__content p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 40px;
+}
+
+.yx1wirreless_detail__content-strong, .zx9speaker_detail_1__content-strong, .YX1Wireless__content-strong, .zx9speaker3__content-strong, .XX99markII__content-strong, .header__content strong {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.yx1wirreless_detail__photo, .zx7speaker_detail2__photo, .zx9speaker_detail_1__photo, .XX59_detail3__photo, .XX99markI_detail__detail2photo, .YX1Wireless__photo, .zx7speaker3__photo, .zx9speaker3__photo, .XX59__photo, .XX99markI__photo, .XX99markII__photo {
+  width: 540px;
+  height: 560px;
+  background: #F1F1F1;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.back {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-in-out;
+  background: none;
+  padding-top: 79px;
+  text-transform: none;
+}
+
+.back:hover {
+  background: none;
+  color: #D87D4A;
+}
+
+.yx1wirreless_detail__price, .zx7speaker_detail2__price, .zx9speaker_detail_1__price, .XX59_detail3__price, .XX99markI_detail__price, .XX99markII_detail__price {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 31px;
+}
+
+.quantity {
+  width: 120px;
+  height: 48px;
+  background-color: #F1F1F1;
+  justify-content: center;
+  gap: 25px;
+}
+
+.quantity .quantity__minus,
+.quantity .quantity__plus {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.25);
+  transition: all 0.5s ease-in-out;
+}
+.quantity .quantity__minus:hover,
+.quantity .quantity__plus:hover {
+  color: #D87D4A;
+  cursor: pointer;
+}
+.quantity .quantity__number {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  width: 20px;
+  background: #F1F1F1;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1.14286px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 32px;
+}
+
+.yx1wirreless_moreproducts__3item, .yx1wirreless_moreproducts__2item, .yx1wirreless_moreproducts__1item, .photozx7speaker_moreproducts__3item, .photozx7speaker_moreproducts__2item, .photozx7speaker_moreproducts__1item, .more_products_speakers1__item-3, .more_products_speakers1__item-2, .more_products_speakers1__item-1, .zx9speaker_moreproducts__item3, .zx9speaker_moreproducts__item2, .zx9speaker_moreproducts__item1, .more_products3__item3-1, .more_products3__item3-2, .more_products3__item3-3, .more_products__item2-3, .more_products__item2-2, .more_products__item2-1, .more_products__item1-3, .more_products__item1-2, .more_products__item1-1 {
+  width: 350px;
+  height: 318px;
+  background-color: #F1F1F1;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 40px;
+}
+
+.yx1wirreless_moreproducts__names, .photozx7speaker_moreproducts__names, .more_products_speakers1__names, .zx9speaker_moreproducts__names, .more_products3__names, .more_products__names {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 1.71429px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 32px;
+}
+
+label {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.214286px;
+  color: #000;
+}
+
+header {
+  background: #121212;
+  border-radius: 8px;
+}
+
+.header__bkg {
+  min-height: 730px;
+  background: #121212;
+  background-image: url(../assets/images/Bitmap.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.header__space {
+  padding: 32px 0 36px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.header__burger {
+  display: none;
+}
+.header__nav ul {
+  min-width: 549px;
+  gap: 34px;
+  justify-content: start;
+}
+.header__nav a {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.header__nav a:hover {
+  color: #d87d4a;
+  transition: all 0.5s ease-in-out;
+}
+.header__content {
+  padding: 128px 0 158px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+}
+.header__content strong {
+  margin-bottom: 24px;
+}
+.header__content h1 {
+  width: 396px;
+}
+.header__content p {
+  width: 350px;
+}
+
+.openmenu_ul .openmenu_ul__item-2 .stuff__button,
+.openmenu_ul .openmenu_ul__item-3 .stuff__button,
+.openmenu_ul .openmenu_ul__item-4 .stuff__button {
+  display: none;
+}
+
+.stuff {
+  padding-top: 200px;
+  padding-bottom: 168px;
+}
+.stuff__item1 {
+  background: #f1f1f1;
+  border-radius: 8px;
+  position: relative;
+  width: 350px;
+  height: 204px;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: -1;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stuff__item2 {
+  background: #f1f1f1;
+  border-radius: 8px;
+  position: relative;
+  width: 350px;
+  height: 204px;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: -1;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stuff__item3 {
+  background: #f1f1f1;
+  border-radius: 8px;
+  position: relative;
+  width: 350px;
+  height: 204px;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: -1;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stuff__imgtop {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+.stuff h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 116px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.stuff__button {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-in-out;
+  background: none;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0px 45px 0px;
+}
+.stuff__arrow {
+  margin-left: 13px;
+}
+.stuff__button:hover {
+  background: none;
+  color: #D87D4A;
+}
+
+.zx9speaker {
+  padding-bottom: 48px;
+}
+.zx9speaker__bkg {
+  min-height: 560px;
+  background: #D87D4A;
+  border-radius: 8px;
+  background-image: url(../assets/images/rings.png);
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: end;
+  gap: 128px;
+}
+.zx9speaker__photo {
+  width: 410px;
+  height: 493px;
+  background-image: url(../assets/images/zx9-speaker.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.zx9speaker__content {
+  width: 359px;
+}
+.zx9speaker__content-button {
+  background: #000;
+  margin-bottom: 124px;
+}
+.zx9speaker__content-button:hover {
+  background: #4c4c4c;
+}
+
+.zx7speaker__bkg {
+  border-radius: 8px;
+  background-image: url(../assets/images/zx7-speaker.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 101px 0px 101px 107px;
+}
+.zx7speaker__title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 32px;
+}
+.zx7speaker__button {
+  color: #000;
+  border: 1px solid #000;
+  background: none;
+}
+.zx7speaker__button:hover {
+  background-color: #000;
+  color: #ffffff;
+}
+
+.yx1earphones {
+  padding-top: 48px;
+  padding-bottom: 200px;
+}
+.yx1earphones__photo {
+  background-image: url(../assets/images/YX1-earphones.png);
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  width: 540px;
+  height: 320px;
+}
+.yx1earphones__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: start;
+  background: #f1f1f1;
+  border-radius: 8px;
+  max-width: 540px;
+  max-height: 320px;
+  padding: 101px 200px 101px 95px;
+}
+.yx1earphones__title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 32px;
+}
+.yx1earphones__button {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000;
+  border: 1px solid #000;
+  background: none;
+}
+.yx1earphones__button:hover {
+  background-color: #000;
+  color: #ffffff;
+}
+
+.promo {
+  padding-bottom: 200px;
+}
+.promo__title {
+  max-width: 445px;
+  margin-bottom: 32px;
+}
+.promo span {
+  color: #D87D4A;
+}
+.promo__text {
+  color: rgba(0, 0, 0, 0.5);
+  max-width: 445px;
+}
+.promo__photo {
+  width: 540px;
+  height: 588px;
+  background-image: url(../assets/images/man.png);
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+
+.footer_bkg {
+  background-color: #0E0E0E;
+  min-height: 345px;
+  padding-bottom: 48px;
+}
+.footer_bkg__line {
+  width: 101px;
+  background-image: url(..//assets/images/line.png);
+  background-repeat: no-repeat;
+  padding-bottom: 75px;
+  position: relative;
+  transform: translate(-500%);
+}
+
+.bottomheader__ul {
+  width: 430px;
+}
+.bottomheader__ul ul {
+  min-width: 549px;
+  gap: 34px;
+  justify-content: start;
+}
+.bottomheader__ul a {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.bottomheader__ul a:hover {
+  color: #d87d4a;
+  transition: all 0.5s ease-in-out;
+}
+
+.final {
+  align-items: flex-end;
+  margin-bottom: 56px;
+}
+.final__text {
+  color: rgba(255, 255, 255, 0.5);
+  width: 540px;
+  margin-top: 36px;
+  margin-bottom: 0;
+}
+.final__socialpage {
+  width: 104px;
+}
+.final__socialpage-fb {
+  width: 24px;
+  height: 24px;
+  background-image: url(../assets/images/Facebook.png);
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
+}
+.final__socialpage-fb:hover {
+  background-image: url(..//assets/images/FacebookHover.png);
+  background-repeat: no-repeat;
+}
+.final__socialpage-tw {
+  width: 24px;
+  height: 24px;
+  background-image: url(../assets/images/Twitter.png);
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
+}
+.final__socialpage-tw:hover {
+  background-image: url(..//assets/images/TwitterHover.png);
+  background-repeat: no-repeat;
+}
+.final__socialpage-insta {
+  width: 24px;
+  height: 24px;
+  background-image: url(../assets/images/insta.png);
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
+}
+.final__socialpage-insta:hover {
+  background-image: url(..//assets/images/instaHover.png);
+  background-repeat: no-repeat;
+}
+
+.copyright {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header2 {
+  background: #121212;
+  border-radius: 0px;
+  height: 336px;
+}
+.header2 h1 {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 98px;
+  padding-bottom: 97px;
+}
+
+.XX99markII {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.XX99markII__photo {
+  background-image: url(../assets/images/XX99MARK_II.png);
+}
+.XX99markII__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: start;
+  gap: 16px;
+  max-width: 445px;
+}
+.XX99markII__content-title {
+  margin-bottom: 16px;
+}
+.XX99markII__content-strong {
+  color: #D87D4A;
+}
+.XX99markII__content-text {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 24px;
+}
+
+.XX99markI {
+  padding-bottom: 160px;
+}
+.XX99markI__photo {
+  background-image: url(../assets/images/XX99MARK_I.png);
+}
+.XX99markI__content {
+  width: 445px;
+}
+.XX99markI__content-text {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 40px;
+}
+.XX99markI__content-title {
+  margin-bottom: 32px;
+}
+
+.XX59__photo {
+  background-image: url(../assets/images/XX59.png);
+}
+.XX59__content {
+  width: 445px;
+}
+.XX59__content-title {
+  margin-bottom: 32px;
+  width: 300px;
+}
+.XX59__content-text {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 40px;
+}
+
+.stuff2 {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.promo2 {
+  padding-bottom: 160px;
+}
+
+.zx9speaker3 {
+  padding-top: 160px;
+  padding-bottom: 160px;
+  align-items: center;
+  gap: 125px;
+}
+.zx9speaker3__photo {
+  background-image: url(..//assets/images/zx9-speaker_3.png);
+  background-position: 88px 100px;
+}
+.zx9speaker3__content {
+  height: 560px;
+  min-width: 445px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-items: start;
+  justify-content: center;
+}
+.zx9speaker3__content-strong {
+  color: #D87D4A;
+}
+.zx9speaker3__content-title {
+  margin-bottom: 16px;
+  width: 200px;
+}
+.zx9speaker3__content-text {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 24px;
+  width: 445px;
+}
+
+.zx7speaker3 {
+  padding-bottom: 80px;
+  justify-content: center;
+  gap: 125px;
+}
+.zx7speaker3__content {
+  padding-top: 44px;
+  max-height: 560px;
+}
+.zx7speaker3__content-title {
+  width: 200px;
+  margin-bottom: 32px;
+}
+.zx7speaker3__content-text {
+  color: rgba(0, 0, 0, 0.5);
+  width: 445px;
+  margin-bottom: 40px;
+}
+.zx7speaker3__photo {
+  background-image: url(../assets/images/zx7speaker.png);
+  background-position: 98px 86px;
+}
+
+.YX1Wireless {
+  padding-top: 160px;
+  padding-bottom: 80px;
+  align-items: center;
+  gap: 125px;
+}
+.YX1Wireless__photo {
+  background-image: url(../assets/images/yx1wireless.png);
+}
+.YX1Wireless__content {
+  height: 560px;
+  max-width: 445px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-items: start;
+  justify-content: center;
+}
+.YX1Wireless__content-strong {
+  color: #D87D4A;
+}
+.YX1Wireless__content-title {
+  margin-bottom: 16px;
+  width: 445px;
+}
+.YX1Wireless__content-text {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 24px;
+  width: 445 px;
+}
+
+.header_detail {
+  background: #121212;
+  border-radius: 0px;
+}
+
+.XX99markII_detail {
+  padding-top: 56px;
+  gap: 125px;
+}
+.XX99markII_detail__text {
+  margin-bottom: 16px;
+}
+.XX99markII_detail__content {
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: start;
+  gap: 16px;
+  max-width: 445px;
+  padding-top: 77px;
+  padding-bottom: 77px;
+}
+.XX99markII_detail__buy {
+  gap: 16px;
+}
+.aboutproduct {
+  width: 1110px;
+  justify-content: start;
+  align-items: start;
+  gap: 125px;
+}
+.aboutproduct__future h3 {
+  width: 200px;
+}
+.aboutproduct__future-text, .aboutproduct__future-text2 {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  max-width: 700px;
+}
+.aboutproduct__future-text2 {
+  margin-bottom: 0;
+}
+.aboutproduct__inbox {
+  min-width: 200 px;
+}
+.aboutproduct__item {
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 8px;
+}
+.aboutproduct__sp {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #D87D4A;
+  margin-right: 24px;
+}
+
+.photos {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.photos__wrsmall {
+  max-height: 592px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.photos__1small {
+  width: 445px;
+  height: 280px;
+  background-image: url(../assets/images/detail/man_small_detail.png);
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+.photos__2small {
+  background-image: url(../assets/images/detail/headhones_detail_small.png);
+  background-repeat: no-repeat;
+  width: 445px;
+  height: 280px;
+  border-radius: 8px;
+}
+.photos__big {
+  width: 635px;
+  height: 592px;
+  background-image: url(../assets/images/detail/headphones_details_big.png);
+  border-radius: 8px;
+}
+
+.more_products {
+  padding-bottom: 80px;
+}
+.more_products__title {
+  margin-bottom: 64px;
+  text-align: center;
+}
+.more_products__itemwrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+}
+.more_products__item1-1 {
+  background-image: url(../assets/images/detail/detail_xx99mark-I.png);
+}
+.more_products__item1-2 {
+  background-image: url(../assets/images/detail/detail_xx59.png);
+}
+.more_products__item1-3 {
+  background-image: url(../assets/images/detail/detail_zx9speaker_new.png);
+}
+.back {
+  padding-bottom: 56px;
+}
+
+.XX99markI_detail {
+  padding-bottom: 160px;
+}
+.XX99markI_detail__detail2photo {
+  background-image: url(..//assets/images/XX99MARK_I.png);
+  background-repeat: no-repeat;
+}
+.XX99markI_detail__content {
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: start;
+  gap: 16px;
+  max-width: 445px;
+  padding-top: 77px;
+  padding-bottom: 77px;
+}
+.XX99markI_detail__content-text {
+  margin-bottom: 16px;
+}
+
+.XX99markI_detail__buy {
+  gap: 16px;
+}
+
+.photos {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.photos__wrsmall {
+  max-height: 592px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.photos__1smalldetail_2headphones {
+  width: 445px;
+  height: 280px;
+  background-image: url(../assets/images/detail/photo_small_detailheadphones-1.png);
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+.photos__2smalldetail_2headphones {
+  background-image: url(../assets/images/detail/photo_small_detailheadphones-2.png);
+  background-repeat: no-repeat;
+  width: 445px;
+  height: 280px;
+  border-radius: 8px;
+}
+.photos__bigdetail_2headphones {
+  width: 635px;
+  height: 592px;
+  background-image: url(..//assets/images/detail/photo_big_detailheadphones.png);
+  border-radius: 8px;
+}
+
+.more_products__item2-1 {
+  background-image: url(../assets/images/detail/detail_xx99mark-II.png);
+}
+.more_products__item2-2 {
+  background-image: url(../assets/images/detail/detail_xx59.png);
+}
+.more_products__item2-3 {
+  background-image: url(../assets/images/detail/detail_zx9speaker_new.png);
+}
+
+.XX59_detail3 {
+  padding-bottom: 160px;
+}
+.XX59_detail3__photo {
+  background-image: url(..//assets/images/XX59.png);
+}
+.XX59_detail3__content {
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: start;
+  gap: 16px;
+  max-width: 445px;
+  padding-top: 77px;
+  padding-bottom: 77px;
+}
+.XX59_detail3__content-title {
+  width: 330px;
+}
+.XX59_detail3__content-text {
+  margin-bottom: 16px;
+}
+.XX59_detail3__buy {
+  gap: 16px;
+}
+
+.XX59_detail_photos {
+  padding-bottom: 160px;
+  padding-top: 160px;
+}
+.XX59_detail_photos__small1 {
+  width: 445px;
+  height: 280px;
+  background-image: url(../assets/images/detail/headhones_detail_small3-1.png);
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+.XX59_detail_photos__small2 {
+  background-image: url(../assets/images/detail/headhones_detail_small3-2.png);
+  background-repeat: no-repeat;
+  width: 445px;
+  height: 280px;
+  border-radius: 8px;
+}
+.XX59_detail_photos__big {
+  width: 635px;
+  height: 592px;
+  background-image: url(..//assets/images/detail/headphones_details_big3.png);
+  border-radius: 8px;
+}
+
+.more_products3 {
+  padding-bottom: 80px;
+}
+.more_products3__title {
+  margin-bottom: 64px;
+  text-align: center;
+}
+.more_products3__itemwrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+}
+.more_products3__item3-1 {
+  background-image: url(../assets/images/detail/detail_xx99mark-II.png);
+}
+.more_products3__item3-2 {
+  background-image: url(../assets/images/detail/detail_xx99mark-I.png);
+}
+.more_products3__item3-3 {
+  background-image: url(../assets/images/detail/detail_zx9speaker_new.png);
+}
+.zx9speaker_detail_1 {
+  padding-top: 56px;
+  padding-bottom: 160px;
+  gap: 125px;
+}
+.zx9speaker_detail_1__photo {
+  background-image: url(..//assets/images/detail/detail_zx9speaker.png);
+}
+.zx9speaker_detail_1__content {
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: start;
+  gap: 16px;
+  max-width: 445px;
+  padding-top: 77px;
+  padding-bottom: 77px;
+}
+.zx9speaker_detail_1__content-strong {
+  color: #D87D4A;
+}
+.zx9speaker_detail_1__content-title {
+  margin-bottom: 16px;
+}
+.zx9speaker_detail_1__content-text {
+  margin-bottom: 16px;
+}
+.zx9speaker_detail_1__buy {
+  gap: 16px;
+}
+
+.photozx9speaker_photos {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.photozx9speaker_photos__wrsmall {
+  flex-direction: column;
+  gap: 32px;
+}
+.photozx9speaker_photos__1small {
+  width: 445px;
+  height: 280px;
+  background-image: url(../assets/images/detail/speakers_detail_1small-1.png);
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+.photozx9speaker_photos__2small {
+  background-image: url(../assets/images/detail/speakers_detail_2small-1.png);
+  background-repeat: no-repeat;
+  width: 445px;
+  height: 280px;
+  border-radius: 8px;
+}
+.photozx9speaker_photos__big {
+  width: 635px;
+  height: 592px;
+  background-image: url(..//assets/images/detail/speakers_detail_big-1.png);
+  border-radius: 8px;
+}
+
+.zx9speaker_moreproducts {
+  padding-bottom: 80x;
+}
+.zx9speaker_moreproducts__title {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.zx9speaker_moreproducts__wrapp {
+  align-items: center;
+}
+.zx9speaker_moreproducts__itemwrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+}
+.zx9speaker_moreproducts__item1 {
+  background-image: url(../assets/images/detail/detail_xx99mark-II.png);
+}
+.zx9speaker_moreproducts__item2 {
+  background-image: url(../assets/images/detail/detail_xx59.png);
+}
+.zx9speaker_moreproducts__item3 {
+  background-image: url(../assets/images/detail/detail_zx9speaker_new.png);
+}
+
+.more_products_speakers1__itemwrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+}
+.more_products_speakers1__item-1 {
+  background-image: url(../assets/images/detail/detail_zx7speaker_new.png);
+}
+.more_products_speakers1__item-2 {
+  background-image: url(../assets/images/detail/detail_xx99mark-I.png);
+}
+.more_products_speakers1__item-3 {
+  background-image: url(../assets/images/detail/detail_xx59.png);
+}
+.zx7speaker_detail2 {
+  padding-bottom: 160px;
+}
+.zx7speaker_detail2__photo {
+  background-image: url(..//assets/images/detail/detail_zx7speaker.png);
+}
+.zx7speaker_detail2__content {
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: start;
+  gap: 16px;
+  max-width: 445px;
+  padding-top: 77px;
+  padding-bottom: 77px;
+}
+.zx7speaker_detail2__content-title {
+  width: 150px;
+}
+.zx7speaker_detail2__content-text {
+  margin-bottom: 16px;
+}
+.zx7speaker_detail2__buy {
+  gap: 16px;
+}
+
+.photozx7speaker_detail2 {
+  gap: 30px;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.photozx7speaker_detail2__wrsmall {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.photozx7speaker_detail2__1small {
+  width: 445px;
+  height: 280px;
+  background-image: url(../assets/images/detail/speakers_detail_small1-1.png);
+  background-repeat: no-repeat;
+}
+.photozx7speaker_detail2__2small {
+  background-image: url(../assets/images/detail/speakers_detail_small2-1.png);
+  background-repeat: no-repeat;
+  width: 445px;
+  height: 280px;
+}
+.photozx7speaker_detail2__big {
+  width: 635px;
+  height: 592px;
+  background-image: url(..//assets/images/detail/speakers_detail_big-2.png);
+}
+
+.photozx7speaker_moreproducts {
+  padding-bottom: 80px;
+}
+.photozx7speaker_moreproducts__title {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.photozx7speaker_moreproducts__itemwrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+}
+.photozx7speaker_moreproducts__1item {
+  background-image: url(../assets/images/detail/detail_zx9speaker_new.png);
+}
+.photozx7speaker_moreproducts__2item {
+  background-image: url(../assets/images/detail/detail_xx99mark-I.png);
+}
+.photozx7speaker_moreproducts__3item {
+  background-image: url(../assets/images/detail/detail_xx59.png);
+}
+
+.yx1wirreless_detail {
+  padding-bottom: 160px;
+}
+.yx1wirreless_detail__photo {
+  background-image: url(..//assets/images/detail/detail_earphones_YX1wireless.png);
+}
+.yx1wirreless_detail__content {
+  width: 445px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: start;
+  gap: 16px;
+  max-width: 445px;
+  padding-top: 77px;
+  padding-bottom: 77px;
+}
+.yx1wirreless_detail__content-strong {
+  color: #D87D4A;
+}
+.yx1wirreless_detail__content-text {
+  margin-bottom: 16px;
+}
+.yx1wirreless_detail__buy {
+  gap: 16px;
+}
+
+.photosyx1wirreless {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.photosyx1wirreless__wrsmall {
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.photosyx1wirreless__1small {
+  width: 445px;
+  height: 280px;
+  background-image: url(../assets/images/detail/earphones_detail_small-1.png);
+}
+.photosyx1wirreless__2small {
+  background-image: url(../assets/images/detail/earphones_detail_small-2.png);
+  width: 445px;
+  height: 280px;
+}
+.photosyx1wirreless__big {
+  width: 635px;
+  height: 592px;
+  background-image: url(..//assets/images/detail/earphones_detail_big.png);
+}
+
+.yx1wirreless_moreproducts {
+  padding-bottom: 80px;
+}
+.yx1wirreless_moreproducts__title {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.yx1wirreless_moreproducts__itemwrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+}
+.yx1wirreless_moreproducts__1item {
+  background-image: url(../assets/images/detail/detail_xx99mark-I.png);
+}
+.yx1wirreless_moreproducts__2item {
+  background-image: url(../assets/images/detail/detail_xx59.png);
+}
+.yx1wirreless_moreproducts__3item {
+  background-image: url(../assets/images/detail/Also_detail_zx9speaker.png);
+}
+
+.overlay_cart {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 100;
+  display: block;
+}
+
+.modal {
+  display: block;
+  position: absolute;
+  right: 50%;
+  top: 25%;
+}
+.modal__wrapper {
+  max-width: 377px;
+  min-height: 488px;
+  background-color: #ffffff;
+  padding: 31px 32px;
+  border-radius: 8px;
+}
+.modal__top {
+  margin-bottom: 31px;
+}
+.modal__pdct_count {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: #000;
+}
+.modal__btn_reset {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-decoration-line: underline;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease-in-out;
+}
+.modal__btn_reset:hover {
+  color: #D87D4A;
+}
+.modal__item-1, .modal__item-2, .modal__item-3 {
+  justify-content: flex-start;
+  margin-bottom: 24px;
+}
+.modal__photo-1 {
+  width: 64px;
+  height: 64px;
+  background-color: #F1F1F1;
+  background-image: url(../assets/images/detail/cart_mini/xx99mk2_cart.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+.modal__photo-2 {
+  width: 64px;
+  height: 64px;
+  background-color: #F1F1F1;
+  background-image: url(../assets/images/detail/cart_mini/xx59_cart.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+.modal__photo-3 {
+  width: 64px;
+  height: 64px;
+  background-color: #F1F1F1;
+  background-image: url(../assets/images/detail/cart_mini/ux1_cart.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+.modal__wr_nameprise {
+  width: 153px;
+}
+.modal__name {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000;
+}
+.modal__price {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.modal__cart__button {
+  width: 313px;
+}
+
+.quantity.quantity_cart {
+  min-width: 96px;
+  height: 32px;
+  gap: 15px;
+}
+
+.total__title {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+.total__sum {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.checkout_body {
+  background-color: #F1F1F1;
+  position: relative;
+}
+
+.main_checkout {
+  padding-bottom: 133px;
+}
+
+.back_checkout {
+  padding-bottom: 38px;
+}
+
+input::-moz-placeholder {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.25px;
+  color: rgba(0, 0, 0, 0.4);
+  text-align: left;
+  padding-left: 24px;
+}
+
+input::placeholder {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.25px;
+  color: rgba(0, 0, 0, 0.4);
+  text-align: left;
+  padding-left: 24px;
+}
+
+label {
+  display: block;
+}
+
+.wrapper {
+  align-items: flex-start;
+}
+
+.checkout {
+  max-width: 730px;
+  background-color: #fff;
+  padding: 54px 48px 24px;
+  border-radius: 8px;
+  position: relative;
+}
+.checkout input {
+  background: #fff;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+  width: 309px;
+  height: 56px;
+  margin-top: 9px;
+}
+.checkout input:hover {
+  border: 1px solid #d87d4a;
+}
+.checkout h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1.14286px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 41px;
+}
+.checkout__fieldset {
+  margin-bottom: 29px;
+}
+.checkout__billingdetails input, .checkout__shippinginfo input,
+.checkout .emoney input {
+  margin-top: 9px;
+  margin-bottom: 24px;
+}
+.checkout__wrapper_namemail {
+  gap: 16px;
+}
+.checkout legend {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 0.928571px;
+  text-transform: uppercase;
+  color: #D87D4A;
+  margin-bottom: 16px;
+}
+.checkout__shippinginfo .input_adress {
+  width: 634px;
+}
+
+.payment__method {
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 634px;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+.payment__method-1 {
+  display: flex;
+  width: 309px;
+  padding: 18px 195px 18px 16px;
+  gap: 21px;
+  background: #ffffff;
+  border: 1px solid #D87D4A;
+  border-radius: 8px;
+}
+.payment__method-2 {
+  display: flex;
+  width: 309px;
+  padding: 18px 147px 18px 16px;
+  gap: 21px;
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  border-radius: 8px;
+}
+.payment__wrapp_title {
+  width: 309px;
+  height: 126px;
+}
+.payment__title {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.214286px;
+  color: #000;
+  margin-bottom: 24px;
+}
+.payment__wrapp_methods {
+  flex-direction: column;
+  max-width: 309px;
+  gap: 16px;
+}
+
+.payment .payment__radio {
+  height: 16px;
+  width: 16px;
+  padding: 18px 273px 18px 16px;
+  margin-top: 0;
+}
+
+.summary {
+  max-width: 350px;
+  min-height: 612px;
+  background-color: #fff;
+  padding: 32px 33px;
+  border-radius: 8px;
+}
+.summary h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 31px;
+}
+.summary h5 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.summary .qnt {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: 0;
+}
+.summary .modal__photo-1, .summary .modal__photo-2, .summary .modal__photo-3 {
+  margin-right: 0;
+}
+.summary .modal__item-1,
+.summary .modal__item-2,
+.summary .modal__item-3 {
+  justify-content: space-between;
+  gap: 16px;
+}
+.summary .modal__item-3 {
+  margin-bottom: 32px;
+}
+.summary .modal__wr_nameprise {
+  width: 190px;
+}
+.summary .total__grand {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.summary .total__grand .total__sum {
+  color: #D87D4A;
+}
+.summary .modal__checkcart_button {
+  width: 284px;
+}
+
+.back_checkoutactive {
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 38px;
+}
+
+.wrongformat {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: -0.214286px;
+  color: #cd2c2c;
+  position: absolute;
+  left: 604px;
+  top: 176px;
+}
+
+.checkout__wrapper_namemail .input_email_wrong {
+  background: #ffffff;
+  border: 2px solid #cd2c2c;
+  border-radius: 8px;
+}
+
+.checkout__wrapper_namemail .label_email_wrong {
+  color: #cd2c2c;
+}
+
+.checkout_text {
+  width: 554px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 48px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 100;
+  display: none;
+}
+
+.thanksfororder {
+  margin: 0 auto;
+  max-width: 540px;
+  min-height: 581px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.thanksfororder__check {
+  margin-bottom: 33px;
+}
+.thanksfororder__h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1.14286px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 24px;
+}
+.thanksfororder__p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 33px;
+}
+.thanksfororder__wrthanks {
+  align-items: start;
+  margin-bottom: 46px;
+}
+.thanksfororder__content_order {
+  width: 246px;
+  height: 140px;
+  background: #f1f1f1;
+  border-radius: 8px 0px 0px 8px;
+  padding: 24px;
+}
+.thanksfororder__purchase {
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  margin-bottom: 12px;
+}
+.thanksfororder__products_order {
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000;
+}
+.thanksfororder__prises {
+  font-size: 14px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.thanksfororder__total_sum {
+  flex-direction: column;
+  gap: 8px;
+  width: 198px;
+  height: 140px;
+  justify-content: center;
+  align-items: start;
+  padding: 41px 66px 41px 32px;
+  background: #000000;
+  border-radius: 0px 8px 8px 0px;
+}
+.thanksfororder__total {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.thanksfororder__sum {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.thanksfororder__quant {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.thanksfororder__span_otherproduct {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.214286px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.thanksfororder__button_order {
+  min-width: 444px;
+  min-height: 48px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 100;
+}
+
+._thanksfororder {
+  margin: 0 auto;
+  max-width: 540px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 48px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+._thanksfororder__check {
+  margin-bottom: 33px;
+}
+._thanksfororder__h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 1.14286px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 24px;
+}
+._thanksfororder__p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 33px;
+}
+._thanksfororder__wrthanks {
+  align-items: flex-start;
+  margin-bottom: 46px;
+}
+._thanksfororder__content_order {
+  width: 246px;
+  height: 270px;
+  background: #f1f1f1;
+  border-radius: 8px 0px 0px 8px;
+  padding: 24px;
+}
+._thanksfororder__purchase3 {
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+._thanksfororder__purchase1, ._thanksfororder__purchase2, ._thanksfororder__purchase3 {
+  padding-bottom: 12px;
+}
+._thanksfororder__products_order {
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #000;
+}
+._thanksfororder__prises {
+  font-size: 14px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+}
+._thanksfororder__quant {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(0, 0, 0, 0.5);
+}
+._thanksfororder__span_otherproduct {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.214286px;
+  color: rgba(0, 0, 0, 0.5);
+}
+._thanksfororder__total_sum {
+  flex-direction: column;
+  gap: 8px;
+  width: 198px;
+  height: 270px;
+  justify-content: end;
+  align-items: start;
+  padding: 41px 66px 41px 32px;
+  background: #000000;
+  border-radius: 0px 8px 8px 0px;
+}
+._thanksfororder__total {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.5);
+}
+._thanksfororder__sum {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #fff;
+}
+._thanksfororder__button_order {
+  width: 444px;
+  min-height: 48px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 709px;
+    align-items: center;
+  }
+  main {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  header {
+    border-radius: 0px;
+    position: relative;
+  }
+  .openmenu_ul .openmenu_ul__item-2 .stuff__button,
+  .openmenu_ul .openmenu_ul__item-3 .stuff__button,
+  .openmenu_ul .openmenu_ul__item-4 .stuff__button {
+    display: block;
+  }
+  .header__bkg {
+    background-image: url(../assets/images/Bitmap.png);
+    background-repeat: no-repeat;
+  }
+  .header__burger {
+    padding-bottom: 10px;
+  }
+  .header__brmenu {
+    width: 16px;
+    height: 9px;
+    border: 3px solid #fff;
+    border-width: 3px 0;
+    position: relative;
+  }
+  .header__brmenu::after {
+    content: "";
+    width: 16px;
+    height: 3px;
+    border: 3px solid #fff;
+    border-width: 3px 0 0;
+    position: absolute;
+    top: -10px;
+    left: 0;
+  }
+  .header__cart {
+    margin-left: auto;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__content {
+    text-align: center;
+    padding-top: 126px;
+    padding-bottom: 167px;
+  }
+  .header__space {
+    padding-bottom: 32px;
+    justify-content: flex-start;
+    gap: 42px;
+  }
+  .header__burger {
+    display: block;
+  }
+  header .openmenu {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    top: 96px;
+    width: 100%;
+    height: 100vh;
+  }
+  header .openmenu_ul {
+    justify-content: center;
+    background-color: #fff;
+    height: 340px;
+    width: 100%;
+    border-radius: 0px 0px 8px 8px;
+  }
+  header .openmenu_ul__item-1 {
+    display: none;
+  }
+  header .openmenu_ul__item-2, header .openmenu_ul__item-3, header .openmenu_ul__item-4 {
+    display: flex;
+    flex-direction: column;
+    background: #f1f1f1;
+    border-radius: 8px;
+    position: relative;
+    width: 223px;
+    height: 165px;
+    text-align: center;
+  }
+  .openmenu__picture1 {
+    min-width: 94px;
+    min-height: 145px;
+    background-image: url(../assets/images/adapt375/hdph_menu.png);
+    background-repeat: no-repeat;
+    margin-top: -50px;
+    margin-left: 15px;
+  }
+  .openmenu__picture2 {
+    min-width: 94px;
+    min-height: 145px;
+    background-image: url(../assets/images/adapt375/spk_menu.png);
+    background-repeat: no-repeat;
+    margin-top: -50px;
+    margin-left: 21px;
+  }
+  .openmenu__picture3 {
+    min-width: 94px;
+    min-height: 145px;
+    background-image: url(../assets/images/adapt375/earph_menu.png);
+    background-repeat: no-repeat;
+    margin-top: -50px;
+    margin-left: 24px;
+  }
+  .openmenu_ul li a {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1.07143px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 16px;
+  }
+  .openmenu_ul li a.stuff__button {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .stuff {
+    padding-top: 148px;
+    padding-bottom: 96px;
+  }
+  .stuff__item1, .stuff__item2, .stuff__item3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f1f1f1;
+    border-radius: 8px;
+    position: relative;
+    width: 223px;
+    height: 165px;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: -1;
+  }
+  .stuff h2 {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1.07143px;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 88px;
+  }
+  .stuff__imgtop {
+    width: 147px;
+  }
+  .zx9speaker {
+    height: 720px;
+    padding-bottom: 32px;
+  }
+  .zx9speaker__bkg {
+    padding-top: 52px;
+    background-image: url(../assets/images/rings_adaptive.png);
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 64px;
+  }
+  .zx9speaker__photo {
+    background-image: url(../assets/images/zx9-speaker_adap768.png);
+    background-position: top;
+    width: 198px;
+    height: 237px;
+  }
+  .zx9speaker__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .zx9speaker__content-title, .zx9speaker__content-text {
+    text-align: center;
+  }
+  .zx9speaker__content-button {
+    margin-bottom: 64px;
+  }
+  .zx7speaker {
+    padding-top: 32px;
+  }
+  .zx7speaker__bkg {
+    background-image: url(../assets/images/zx7-speaker_adapt768.png);
+  }
+  .yx1earphones {
+    padding-top: 32px;
+    padding-bottom: 96px;
+    gap: 11px;
+  }
+  .yx1earphones__photo {
+    width: 339px;
+    height: 320px;
+    background-image: url(../assets/images/YX1-earphones_adapt768.jpg);
+    border-radius: 8px;
+  }
+  .yx1earphones__content {
+    width: 339px;
+    height: 320px;
+    padding: 101px 41px 101px 51px;
+  }
+  .promo {
+    flex-direction: column-reverse;
+    padding-bottom: 80px;
+    gap: 63px;
+  }
+  .promo__title {
+    text-align: center;
+    margin: auto;
+    max-width: 573px;
+    margin-bottom: 32px;
+  }
+  .promo__text {
+    max-width: 573px;
+    text-align: center;
+  }
+  .promo__photo {
+    width: 689px;
+    height: 300px;
+    background-image: url(../assets/images/man_adapt768.png);
+  }
+  .footer_bkg {
+    height: 400px;
+  }
+  .footer_bkg__line {
+    padding-bottom: 56px;
+    transform: translate(-293%);
+  }
+  .footer_bkg .bottomheader {
+    flex-direction: column;
+    align-items: start;
+    gap: 32px;
+  }
+  .footer_bkg .final {
+    flex-direction: column;
+    align-items: end;
+    gap: 80px;
+    margin-bottom: 0;
+    position: relative;
+  }
+  .footer_bkg .final__text {
+    width: 689px;
+  }
+  .footer_bkg .copyright {
+    min-width: 258px;
+    text-align: start;
+    position: absolute;
+    transform: translate(10%, -85%);
+  }
+  .header2 {
+    background: #000;
+  }
+  .XX99markII {
+    flex-direction: column;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    align-items: center;
+    padding-top: 0;
+    justify-content: flex-start;
+  }
+  .XX99markII__photo {
+    width: 689px;
+    height: 352px;
+    background-image: url(../assets/images/adapt768/xx99mark_II_adapt768.png);
+  }
+  .XX99markII__content {
+    padding-top: 52px;
+    align-items: center;
+  }
+  .XX99markII__content-title {
+    text-align: center;
+  }
+  .XX99markII__content-text {
+    text-align: center;
+    width: 572px;
+    margin-bottom: 15px;
+  }
+  .XX99markI {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 120px;
+  }
+  .XX99markI__content {
+    padding-top: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+  }
+  .XX99markI__content-title {
+    text-align: center;
+  }
+  .XX99markI__content-text {
+    text-align: center;
+    width: 572px;
+    margin-bottom: 24px;
+  }
+  .XX99markI__photo {
+    background-image: url(../assets/images/adapt768/xx99mark_I_adapt768.png);
+    width: 689px;
+    max-height: 352px;
+  }
+  .XX59 {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+  }
+  .XX59__photo {
+    background-image: url(../assets/images/adapt768/xx59_adapt768.png);
+    width: 689px;
+    max-height: 352px;
+  }
+  .XX59__content {
+    padding-top: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .XX59__content-title {
+    text-align: center;
+  }
+  .XX59__content-text {
+    text-align: center;
+    width: 572px;
+    margin-bottom: 24px;
+  }
+  .zx9speaker3 {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 0;
+    gap: 0;
+  }
+  .zx9speaker3__photo {
+    width: 689px;
+    max-height: 352px;
+    background-image: url(..//assets/images/adapt768/zx9speaker_adapt768.png);
+    background-position: center;
+  }
+  .zx9speaker3__content {
+    padding-top: 52px;
+    padding-bottom: 120px;
+    max-width: 572px;
+    max-height: 474px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .zx9speaker3__content-title {
+    text-align: center;
+  }
+  .zx9speaker3__content-text {
+    text-align: center;
+    width: 572px;
+    margin-bottom: 24px;
+  }
+  .zx7speaker3 {
+    flex-direction: column-reverse;
+    gap: 52px;
+    padding-bottom: 34px;
+  }
+  .zx7speaker3__content {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .zx7speaker3__content-title {
+    text-align: center;
+  }
+  .zx7speaker3__content-text {
+    text-align: center;
+    width: 572px;
+    margin-bottom: 24px;
+  }
+  .zx7speaker3__photo {
+    background-image: url(../assets/images/adapt768/zx7speaker_adapt768.png);
+    width: 689px;
+    max-height: 352px;
+    background-position: center;
+  }
+  .YX1Wireless {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 120px;
+    gap: 52px;
+    padding-bottom: 0;
+  }
+  .YX1Wireless__photo {
+    background-image: url(../assets/images/adapt768/yx1wireless_adapt768.png);
+    width: 689px;
+    max-height: 352px;
+  }
+  .YX1Wireless__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 302px;
+    margin-bottom: 24px;
+  }
+  .YX1Wireless__content-title {
+    text-align: center;
+  }
+  .YX1Wireless__content-text {
+    text-align: center;
+    width: 572px;
+    margin-bottom: 8px;
+  }
+  .header_detail {
+    background: #000;
+    border-radius: 0px;
+    max-height: 90px;
+  }
+  .back {
+    padding-top: 33px;
+    padding-bottom: 24px;
+  }
+  .XX99markII_detail {
+    display: flex;
+    flex-direction: row;
+    gap: 69px;
+  }
+  .XX99markII_detail__photo {
+    width: 281px;
+    height: 480px;
+    background-image: url(../assets/images/adapt768/xx99mark_II_adapt768.png);
+  }
+  .XX99markII_detail__content {
+    width: 340px;
+    min-height: 390px;
+    padding-top: 0;
+    gap: 17px;
+  }
+  .XX99markII_detail__content-strong {
+    margin-bottom: 17px;
+  }
+  .XX99markII_detail__content-title {
+    text-align: start;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 15px;
+  }
+  .XX99markII_detail__content-text {
+    width: 340px;
+    text-align: start;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0px;
+  }
+  .XX99markII_detail__price {
+    margin: 14px;
+  }
+  .aboutproduct .aboutproduct__future {
+    max-width: 689px;
+  }
+  .aboutproduct .aboutproduct__future__future-text {
+    max-width: 689px;
+  }
+  .aboutproduct {
+    flex-direction: column;
+    padding-top: 0;
+    gap: 120px;
+  }
+  .aboutproduct__inbox {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 164px;
+    margin-bottom: 0;
+    width: 690px;
+  }
+  .photos {
+    padding: 120px 10px;
+    gap: 18px;
+  }
+  .photos__wrsmall {
+    gap: 20px;
+  }
+  .photos__1small {
+    background-image: url(../assets/images/adapt768/detail768/1smallheadhpone-1.png);
+    width: 277px;
+    height: 174px;
+  }
+  .photos__2small {
+    background-image: url(../assets/images/adapt768/detail768/2smallheadhpone-1.png);
+    width: 277px;
+    height: 174px;
+  }
+  .photos__big {
+    background-image: url(../assets/images/adapt768/detail768/big_headhpone-1.png);
+    background-repeat: no-repeat;
+    width: 395px;
+    height: 368px;
+  }
+  .more_products {
+    min-height: 563px;
+    padding-bottom: 28px;
+  }
+  .more_products__title {
+    margin-bottom: 56px;
+  }
+  .more_products__item1-1, .more_products__item1-2, .more_products__item1-3 {
+    width: 223px;
+    height: 318px;
+    background-color: #F1F1F1;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 40px;
+  }
+  .more_products__item1-1 {
+    background-image: url(../assets/images/adapt768/detail768/xx99mark_I_adapt768_detailAlso.png);
+  }
+  .more_products__item1-2 {
+    background-image: url(../assets/images/adapt768/detail768/xx59_adapt768_detailAlso.png);
+  }
+  .more_products__item1-3 {
+    background-image: url(../assets/images/adapt768/detail768/zx9speaker_adapt768_detailAlso.png);
+  }
+  .XX99markI_detail {
+    padding-bottom: 120px;
+  }
+  .XX99markI_detail__detail2photo {
+    width: 281px;
+    height: 480px;
+    background-image: url(../assets/images/adapt768/detail768/xx99mark_I_detailMain.png);
+  }
+  .XX99markI_detail__content {
+    width: 340px;
+    max-height: 390px;
+    padding-top: 0;
+    gap: 17px;
+  }
+  .XX99markI_detail__content-title {
+    text-align: start;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 15px;
+  }
+  .XX99markI_detail__content-text {
+    width: 340px;
+    text-align: start;
+  }
+  .aboutproduct .aboutproduct__future {
+    max-width: 689px;
+  }
+  .aboutproduct .aboutproduct__future__future-text {
+    max-width: 689px;
+  }
+  .photos {
+    padding: 120px 10px;
+    gap: 18px;
+  }
+  .photos__wrsmall {
+    gap: 20px;
+  }
+  .photos__1smalldetail_2headphones {
+    background-image: url(../assets/images/adapt768/detail768/1smallheadhpone-2.png);
+    width: 277px;
+    height: 174px;
+  }
+  .photos__2smalldetail_2headphones {
+    background-image: url(../assets/images/adapt768/detail768/2smallheadhpone-2.png);
+    width: 277px;
+    height: 174px;
+  }
+  .photos__bigdetail_2headphones {
+    background-image: url(../assets/images/adapt768/detail768/big_headhpone-2.png);
+    background-repeat: no-repeat;
+    width: 395px;
+    height: 368px;
+  }
+  .more_products {
+    min-height: 563px;
+    padding-bottom: 28px;
+  }
+  .more_products__item2-1, .more_products__item2-2, .more_products__item2-3 {
+    width: 223px;
+    height: 318px;
+    background-color: #F1F1F1;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 40px;
+  }
+  .XX59_detail3 {
+    padding-bottom: 120px;
+  }
+  .XX59_detail3__photo {
+    width: 281px;
+    height: 480px;
+    background-image: url(../assets/images/adapt768/detail768/xx59_detail768main.png);
+  }
+  .XX59_detail3__content {
+    width: 340px;
+    height: 390px;
+    padding-top: 0;
+    gap: 17px;
+  }
+  .XX59_detail3__content-title {
+    text-align: start;
+  }
+  .XX59_detail3__content-text {
+    text-align: start;
+    width: 339px;
+  }
+  .aboutproduct .aboutproduct__future {
+    max-width: 689px;
+  }
+  .aboutproduct .aboutproduct__future__future-text {
+    max-width: 689px;
+  }
+  .XX59_detail_photos {
+    padding: 120px 10px;
+    gap: 18px;
+  }
+  .XX59_detail_photos__small1 {
+    background-image: url(../assets/images/adapt768/detail768/1smallheadhpone-3.png);
+    width: 277px;
+    height: 174px;
+  }
+  .XX59_detail_photos__small2 {
+    background-image: url(../assets/images/adapt768/detail768/2smallheadhpone-3.png);
+    width: 277px;
+    height: 174px;
+  }
+  .XX59_detail_photos__big {
+    background-image: url(../assets/images/adapt768/detail768/big_headhpone-3.png);
+    background-repeat: no-repeat;
+    width: 395px;
+    height: 368px;
+  }
+  .more_products3 {
+    min-height: 563px;
+    padding-bottom: 28px;
+  }
+  .more_products3__title {
+    margin-bottom: 56px;
+  }
+  .more_products3__item3-1, .more_products3__item3-2, .more_products3__item3-3 {
+    width: 223px;
+    height: 318px;
+    background-color: #F1F1F1;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 40px;
+  }
+  .more_products3__item3-1 {
+    background-image: url(../assets/images/adapt768/detail768/xx99Mark_II_adapt768_detailAlso.png);
+  }
+  .more_products3__item3-2 {
+    background-image: url(../assets/images/adapt768/detail768/xx99mark_I_adapt768_detailAlso.png);
+  }
+  .more_products3__item3-3 {
+    background-image: url(../assets/images/adapt768/detail768/zx9speaker_adapt768_detailAlso.png);
+  }
+  .zx9speaker_detail_1 {
+    padding-top: 0;
+    padding-bottom: 120px;
+    gap: 69px;
+  }
+  .zx9speaker_detail_1__photo {
+    width: 281px;
+    height: 480px;
+    background-image: url(../assets/images/adapt768/detail768/zx9speaker_adapt768_detailMain.png);
+    background-position: center;
+  }
+  .zx9speaker_detail_1__content {
+    width: 340px;
+    max-height: 390px;
+    padding-top: 0;
+    gap: 17px;
+  }
+  .zx9speaker_detail_1__content-title {
+    text-align: start;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: #000;
+    margin-bottom: 15px;
+    width: 150px;
+  }
+  .zx9speaker_detail_1__content-text {
+    width: 340px;
+    text-align: start;
+  }
+  .aboutproduct .aboutproduct__future {
+    max-width: 689px;
+  }
+  .aboutproduct .aboutproduct__future__future-text {
+    max-width: 689px;
+  }
+  .photozx9speaker_photos {
+    padding-top: 120px;
+  }
+  .photozx9speaker_photos__1small, .photozx9speaker_photos__2small {
+    width: 277px;
+    height: 174px;
+  }
+  .photozx9speaker_photos__1small {
+    background-image: url(../assets/images/adapt768/detail768/1smallSpeaker-1.png);
+  }
+  .photozx9speaker_photos__2small {
+    background-image: url(../assets/images/adapt768/detail768/2smallSpeaker-1.png);
+  }
+  .photozx9speaker_photos__big {
+    background-image: url(../assets/images/adapt768/detail768/1_big_Speaker-1.png);
+    width: 395px;
+    height: 368px;
+  }
+  .zx9speaker_moreproducts__item1, .zx9speaker_moreproducts__item2, .zx9speaker_moreproducts__item3 {
+    width: 223px;
+    height: 318px;
+    background-color: #F1F1F1;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 40px;
+  }
+  .zx9speaker_moreproducts__item1 {
+    background-image: url(../assets/images/adapt768/detail768/zx7speaker_adapt768Also.png);
+  }
+  .zx9speaker_moreproducts__item2 {
+    background-image: url(../assets/images/adapt768/detail768/xx99mark_I_adapt768_detailAlso.png);
+  }
+  .zx9speaker_moreproducts__item3 {
+    background-image: url(../assets/images/adapt768/detail768/xx59_adapt768_detailAlso.png);
+  }
+  .zx7speaker_detail2 {
+    display: flex;
+    gap: 69px;
+    padding-bottom: 120px;
+  }
+  .zx7speaker_detail2__photo {
+    width: 281px;
+    height: 480px;
+    background-image: url(../assets/images/adapt768/detail768/zx7speaker_adapt768_detailMain.png);
+    background-position: center;
+  }
+  .zx7speaker_detail2__content {
+    width: 340px;
+  }
+  .zx7speaker_detail2__content-title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .zx7speaker_detail2__content-text {
+    width: 323px;
+  }
+  .aboutproduct .aboutproduct__future {
+    max-width: 689px;
+  }
+  .aboutproduct .aboutproduct__future__future-text {
+    max-width: 689px;
+  }
+  .photozx7speaker_detail2 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .photozx7speaker_detail2__1small, .photozx7speaker_detail2__2small {
+    width: 277px;
+    height: 174px;
+  }
+  .photozx7speaker_detail2__1small {
+    background-image: url(../assets/images/adapt768/detail768/1smallSpeaker-2.png);
+  }
+  .photozx7speaker_detail2__2small {
+    background-image: url(../assets/images/adapt768/detail768/2smallSpeaker-2.png);
+  }
+  .photozx7speaker_detail2__big {
+    background-image: url(../assets/images/adapt768/detail768/2_big_Speaker.png);
+    width: 395px;
+    height: 368px;
+  }
+  .photozx7speaker_moreproducts {
+    padding-bottom: 20px;
+  }
+  .photozx7speaker_moreproducts__1item, .photozx7speaker_moreproducts__2item, .photozx7speaker_moreproducts__3item {
+    width: 223px;
+    height: 318px;
+    background-color: #F1F1F1;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 40px;
+  }
+  .photozx7speaker_moreproducts__1item {
+    background-image: url(../assets/images/adapt768/detail768/zx9speaker_adapt768_detailAlso.png);
+  }
+  .photozx7speaker_moreproducts h3 {
+    margin-bottom: 56px;
+  }
+  .yx1wirreless_detail {
+    display: flex;
+    gap: 69px;
+    padding-bottom: 120px;
+  }
+  .yx1wirreless_detail__photo {
+    width: 281px;
+    height: 480px;
+    background-image: url(../assets/images/adapt768/detail768/yx1_adapt768_detailMain.png);
+    background-position: center;
+  }
+  .yx1wirreless_detail__content {
+    width: 340px;
+  }
+  .yx1wirreless_detail__content-title {
+    font-size: 28px;
+    line-height: 32px;
+    text-align: start;
+  }
+  .yx1wirreless_detail__content-text {
+    width: 323px;
+    text-align: start;
+  }
+  .aboutproduct .aboutproduct__future {
+    max-width: 689px;
+  }
+  .aboutproduct .aboutproduct__future__future-text {
+    max-width: 689px;
+  }
+  .photosyx1wirreless {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .photosyx1wirreless__wrsmall {
+    gap: 20px;
+  }
+  .photosyx1wirreless__1small, .photosyx1wirreless__2small {
+    width: 277px;
+    height: 174px;
+  }
+  .photosyx1wirreless__1small {
+    background-image: url(../assets/images/adapt768/detail768/1small_YX1adapt768.png);
+  }
+  .photosyx1wirreless__2small {
+    background-image: url(../assets/images/adapt768/detail768/2small_YX1adapt768.png);
+  }
+  .photosyx1wirreless__big {
+    background-image: url(../assets/images/adapt768/detail768/big_YX1adapt768.png);
+    width: 395px;
+    height: 368px;
+  }
+  .yx1wirreless_moreproducts__1item, .yx1wirreless_moreproducts__2item, .yx1wirreless_moreproducts__3item {
+    width: 223px;
+    height: 318px;
+    background-color: #F1F1F1;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 40px;
+  }
+  .yx1wirreless_moreproducts__1item {
+    background-image: url(../assets/images/adapt768/detail768/xx99mark_I_adapt768_detailAlso.png);
+  }
+  .yx1wirreless_moreproducts__2item {
+    background-image: url(../assets/images/adapt768/detail768/xx59_adapt768_detailAlso.png);
+  }
+  .yx1wirreless_moreproducts__3item {
+    background-image: url(../assets/images/adapt768/detail768/zx9speaker_adapt768_detailAlso.png);
+  }
+  .overlay {
+    display: block;
+  }
+  .modal {
+    display: block;
+    top: 55%;
+    left: 25%;
+  }
+  .overlay_checkout {
+    display: block;
+  }
+  .main_checkout768 {
+    padding-bottom: 116px;
+  }
+  .back_checkout768 {
+    max-width: 689px;
+    padding-top: 48px;
+  }
+  .wrapper_checkout768 {
+    flex-direction: column;
+    gap: 32px;
+  }
+  .checkout768 {
+    max-width: 689px;
+    padding: 31px 27px 28px;
+  }
+  ._thanksfororder {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+  }
+  .summary768 {
+    min-width: 689px;
+    min-height: 612px;
+  }
+  .modal768_checkcart_button {
+    width: 623px;
+    min-height: 48px;
+  }
+  .modal768_checkcart_button__wr_nameprise {
+    min-width: 523px;
+  }
+}
+@media (max-width: 376px) {
+  header {
+    position: relative;
+  }
+  .container {
+    min-width: 337px;
+  }
+  .openmenu_ul .openmenu_ul__item-2 .stuff__button,
+  .openmenu_ul .openmenu_ul__item-3 .stuff__button,
+  .openmenu_ul .openmenu_ul__item-4 .stuff__button {
+    display: block;
+  }
+  .header__bkg {
+    background-image: url(../assets/images/adapt375/PtotoMain.png);
+    background-repeat: no-repeat;
+    min-height: 375px;
+  }
+  .header__burger {
+    padding-bottom: 10px;
+  }
+  .header__brmenu {
+    width: 16px;
+    height: 9px;
+    border: 3px solid #fff;
+    border-width: 3px 0;
+    position: relative;
+  }
+  .header__brmenu::after {
+    content: "";
+    width: 16px;
+    height: 3px;
+    border: 3px solid #fff;
+    border-width: 3px 0 0;
+    position: absolute;
+    top: -10px;
+    left: 0;
+  }
+  .header__logo {
+    text-align: center;
+    width: 145px;
+  }
+  .header__content {
+    text-align: center;
+    padding-top: 108px;
+    padding-bottom: 112px;
+  }
+  .header__space {
+    width: 327px;
+    padding-bottom: 32px;
+    justify-content: space-between;
+  }
+  .header__cart {
+    margin-left: 0px;
+  }
+  header .openmenu {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 96px;
+    width: 100%;
+    height: 100vh;
+  }
+  header .openmenu_ul {
+    min-width: 327px;
+    min-height: 750px;
+    flex-direction: column;
+    gap: 68px;
+    padding-top: 80px;
+  }
+  header .openmenu_ul__item-2, header .openmenu_ul__item-3, header .openmenu_ul__item-4 {
+    display: flex;
+    flex-direction: column;
+    background: #f1f1f1;
+    border-radius: 8px;
+    position: relative;
+    width: 327px;
+    height: 165px;
+    text-align: center;
+  }
+  header .openmenu_ul .openmenu__picture1 {
+    margin-left: 73px;
+  }
+  header .openmenu_ul .openmenu__picture2 {
+    margin-left: 73px;
+  }
+  header .openmenu_ul .openmenu__picture3 {
+    margin-left: 75px;
+  }
+  .header__content .header__text375 {
+    width: 328px;
+  }
+  .header__content .title {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 1.28571px;
+  }
+  .header__content .header_strong {
+    margin-bottom: 16px;
+  }
+  .stuff {
+    flex-direction: column;
+    gap: 68px;
+    padding-top: 92px;
+    padding-bottom: 120px;
+  }
+  .stuff__item1, .stuff__item2, .stuff__item3 {
+    justify-content: start;
+    width: 327px;
+    min-height: 165px;
+  }
+  .zx9speaker {
+    height: 600px;
+    padding-bottom: 24px;
+    max-width: 327px;
+  }
+  .zx9speaker__bkg {
+    min-height: 327px;
+    background-image: url(../assets/images/adapt375/rings_375.png);
+    background-position: top;
+    gap: 32px;
+    padding: 55px;
+  }
+  .zx9speaker__photo {
+    background-image: url(../assets/images/adapt375/zx9_Page1_375.png);
+    background-position: cover;
+    height: 207px;
+  }
+  .zx9speaker__content {
+    gap: 24px;
+  }
+  .zx9speaker__content-title {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 1.28571px;
+    width: 150px;
+    margin-bottom: 0;
+  }
+  .zx9speaker__content-text {
+    width: 280px;
+    margin-bottom: 0;
+  }
+  .zx9speaker__content-button {
+    margin-bottom: 0;
+  }
+  .zx7speaker {
+    padding-top: 24px;
+  }
+  .zx7speaker__bkg {
+    padding: 101px 101px 181px 24px;
+    background-image: url(../assets/images/adapt375/zx7_Page1_375.png);
+    height: 320px;
+  }
+  .zx7speaker__title {
+    width: 220px;
+  }
+  .yx1earphones {
+    padding-bottom: 120px;
+    flex-direction: column;
+    gap: 24px;
+    width: 327px;
+  }
+  .yx1earphones__photo {
+    background-image: url(../assets/images/adapt375/yx1_Page1_375.png);
+    width: 327px;
+    height: 200px;
+  }
+  .yx1earphones__content {
+    border-radius: 8px;
+    width: 327px;
+    height: 200px;
+  }
+  .promo {
+    align-items: center;
+    gap: 40px;
+  }
+  .promo__title {
+    width: 327px;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1px;
+  }
+  .promo__text {
+    width: 327px;
+  }
+  .promo__photo {
+    width: 327px;
+    height: 300px;
+    background-image: url(../assets/images/adapt375/man_Page1_375.png);
+  }
+  .footer_bkg {
+    height: 654px;
+  }
+  .footer_bkg__line {
+    transform: translate(35%);
+  }
+  .footer_bkg .bottomheader {
+    gap: 48px;
+    align-items: center;
+  }
+  .footer_bkg .bottomheader__ul {
+    width: 327px;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+  .footer_bkg .final {
+    gap: 121px;
+    align-items: center;
+  }
+  .footer_bkg .final__text {
+    width: 327px;
+    text-align: center;
+    margin-top: 0;
+  }
+  .footer_bkg .copyright {
+    transform: translate(10%, -400%);
+  }
+  .header2 {
+    height: 192px;
+  }
+  .header2 h1 {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+  }
+  .XX99markII {
+    padding-top: 64px;
+    padding-bottom: 120px;
+    gap: 32px;
+  }
+  .XX99markII__photo {
+    width: 327px;
+    height: 352px;
+  }
+  .XX99markII__content {
+    width: 327px;
+    height: 340px;
+    padding-top: 0;
+    gap: 24px;
+  }
+  .XX99markII__content-title {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+  .XX99markII__content-text {
+    width: 327px;
+    margin-bottom: 0;
+  }
+  .XX99markI {
+    padding-bottom: 120px;
+    gap: 32px;
+  }
+  .XX99markI__content {
+    width: 327px;
+    padding-top: 0;
+    gap: 24px;
+  }
+  .XX99markI__content-title {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+  }
+  .XX99markI__content-text {
+    width: 327px;
+    margin-bottom: 0;
+  }
+  .XX99markI__photo {
+    width: 327px;
+    height: 352px;
+  }
+  .XX59 {
+    padding-bottom: 80px;
+    gap: 32px;
+  }
+  .XX59__photo {
+    width: 327px;
+    height: 352px;
+  }
+  .XX59__content {
+    padding-top: 0;
+    gap: 32px;
+  }
+  .XX59__content-title {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    width: 200px;
+  }
+  .XX59__content-text {
+    width: 327px;
+    margin-bottom: 0;
+  }
+  .zx9speaker3 {
+    gap: 32px;
+  }
+  .zx9speaker3__photo {
+    width: 327px;
+    height: 352px;
+  }
+  .zx9speaker3__content {
+    padding-top: 0;
+    gap: 24px;
+  }
+  .zx9speaker3__content-title {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    width: 150px;
+  }
+  .zx9speaker3__content-text {
+    width: 327px;
+    margin-bottom: 0;
+  }
+  .zx7speaker3 {
+    gap: 32px;
+    padding-bottom: 80px;
+  }
+  .zx7speaker3__content {
+    padding-top: 0;
+    gap: 24px;
+  }
+  .zx7speaker3__content-title {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    width: 150px;
+  }
+  .zx7speaker3__content-text {
+    width: 327px;
+    margin-bottom: 0;
+  }
+  .zx7speaker3__photo {
+    width: 327px;
+    height: 352px;
+  }
+  .YX1Wireless {
+    padding-top: 64px;
+    padding-bottom: 80px;
+    gap: 32px;
+  }
+  .YX1Wireless__photo {
+    width: 327px;
+    height: 352px;
+  }
+  .YX1Wireless__content {
+    width: 327px;
+    padding-top: 0;
+    gap: 24px;
+  }
+  .YX1Wireless__content-title {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    width: 327px;
+  }
+  .YX1Wireless__content-text {
+    width: 327px;
+    margin-bottom: 0;
+  }
+  .XX99markII_detail {
+    flex-direction: column;
+    gap: 32px;
+    padding-bottom: 88px;
+    padding-top: 0;
+  }
+  .XX99markII_detail__photo {
+    width: 327px;
+    height: 327px;
+    background-image: url(../assets/images/adapt375/xx99Mark_II_detail_main.png);
+  }
+  .XX99markII_detail__content {
+    gap: 24px;
+    padding-bottom: 0;
+  }
+  .XX99markII_detail__content-title {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .aboutproduct {
+    flex-direction: column;
+    gap: 88px;
+  }
+  .aboutproduct h3 {
+    font-size: 24px;
+    line-height: 36px;
+    width: 327px;
+  }
+  h3 .aboutproduct__future-text, h3 .aboutproduct__future-text2 {
+    width: 327px;
+  }
+  .aboutproduct__inbox {
+    flex-direction: column;
+    width: 327px;
+  }
+  .aboutproduct .aboutproduct__inbox {
+    flex-direction: column;
+    align-items: start;
+    width: 327px;
+  }
+  .aboutproduct__inbox h3 {
+    margin-bottom: 24px;
+  }
+  .photos {
+    flex-direction: column;
+    padding-bottom: 120px;
+  }
+  .photos__1small {
+    background-image: url(../assets/images/adapt375/1SmallDetailHead-1.png);
+    width: 327px;
+  }
+  .photos__2small {
+    background-image: url(../assets/images/adapt375/2SmallDetailHead-1.png);
+    width: 327px;
+  }
+  .photos__big {
+    background-image: url(../assets/images/adapt375/BigDetailHead-1.png);
+    width: 327px;
+  }
+  .more_products__title {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.857143px;
+  }
+  .more_products {
+    padding-bottom: 24px;
+  }
+  .more_products__wrapp {
+    flex-direction: column;
+  }
+  .more_products__itemwrapp {
+    gap: 32px;
+    margin-bottom: 56px;
+  }
+  .more_products__item1-1, .more_products__item1-2, .more_products__item1-3 {
+    width: 327px;
+    height: 120px;
+    margin-bottom: 0;
+  }
+  .more_products__item1-1 {
+    background-image: url(../assets/images/adapt375/AlsoXX99Mark_I.png);
+  }
+  .more_products__item1-2 {
+    background-image: url(../assets/images/adapt375/AlsoXX59.png);
+  }
+  .more_products__item1-3 {
+    background-image: url(../assets/images/adapt375/Alsospeakerzx9.png);
+  }
+  .more_products__names {
+    margin-bottom: 0;
+  }
+  .XX99markI_detail {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 88px;
+  }
+  .XX99markI_detail__detail2photo {
+    width: 327px;
+    height: 327px;
+  }
+  .XX99markI_detail__content {
+    gap: 24px;
+    padding-bottom: 0;
+  }
+  .XX99markI_detail__content-title {
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 0;
+  }
+  .XX99markI_detail__content-text {
+    margin-bottom: 0;
+  }
+  .XX99markI_detail__price {
+    margin-bottom: 7px;
+  }
+  .photos {
+    flex-direction: column;
+    padding-top: 0;
+    padding-bottom: 120px;
+  }
+  .photos__1smalldetail_2headphones {
+    background-image: url(../assets/images/adapt375/1SmallDetailHead-2.png);
+    width: 327px;
+  }
+  .photos__2smalldetail_2headphones {
+    background-image: url(../assets/images/adapt375/2SmallDetailHead-2.png);
+    width: 327px;
+  }
+  .photos__bigdetail_2headphones {
+    background-image: url(../assets/images/adapt375/BigDetailHead-2.png);
+    width: 327px;
+  }
+  .more_products__item2-1, .more_products__item2-2, .more_products__item2-3 {
+    width: 327px;
+    height: 120px;
+    margin-bottom: 0;
+  }
+  .more_products__item2-1 {
+    background-image: url(../assets/images/adapt375/AlsoXX99Mark_I.png);
+  }
+  .more_products__item2-2 {
+    background-image: url(../assets/images/adapt375/AlsoXX59.png);
+  }
+  .more_products__item2-3 {
+    background-image: url(../assets/images/adapt375/Alsospeakerzx9.png);
+  }
+  .XX59_detail3 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 88px;
+  }
+  .XX59_detail3__photo {
+    width: 327px;
+    height: 327px;
+  }
+  .XX59_detail3__content {
+    gap: 24px;
+    padding-bottom: 0;
+  }
+  .XX59_detail3__content-title {
+    width: 150px;
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 0;
+  }
+  .XX59_detail3__content-text {
+    margin-bottom: 0;
+  }
+  .XX59_detail_photos {
+    flex-direction: column;
+    padding-bottom: 120px;
+    padding-top: 0;
+  }
+  .XX59_detail_photos__small1 {
+    background-image: url(../assets/images/adapt375/1SmallDetailHead-3.png);
+    width: 327px;
+  }
+  .XX59_detail_photos__small2 {
+    background-image: url(../assets/images/adapt375/2SmallDetailHead-3.png);
+    width: 327px;
+  }
+  .XX59_detail_photos__big {
+    background-image: url(../assets/images/adapt375/BigDetailHead-3.png);
+    width: 327px;
+  }
+  .more_products3 {
+    padding-bottom: 24px;
+  }
+  .more_products3__title {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.857143px;
+  }
+  .more_products3__itemwrapp {
+    gap: 32px;
+    margin-bottom: 56px;
+  }
+  .more_products3__wrapp {
+    flex-direction: column;
+  }
+  .more_products3__item3-1, .more_products3__item3-2, .more_products3__item3-3 {
+    width: 327px;
+    height: 120px;
+    margin-bottom: 0;
+  }
+  .more_products3__item3-1 {
+    background-image: url(../assets/images/adapt375/AlsoXX99Mark_II.png);
+  }
+  .more_products3__item3-2 {
+    background-image: url(../assets/images/adapt375/AlsoXX99Mark_I.png);
+  }
+  .more_products3__item3-3 {
+    background-image: url(../assets/images/adapt375/Alsospeakerzx9.png);
+  }
+  .more_products3__names {
+    margin-bottom: 0;
+  }
+  .zx9speaker_detail_1 {
+    flex-direction: column;
+    gap: 32px;
+    padding-bottom: 88px;
+  }
+  .zx9speaker_detail_1__photo {
+    width: 327px;
+    height: 327px;
+  }
+  .zx9speaker_detail_1__content {
+    gap: 24px;
+    padding-bottom: 0;
+  }
+  .zx9speaker_detail_1__content-title {
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 0;
+  }
+  .zx9speaker_detail_1__content-text {
+    margin-bottom: 0;
+  }
+  .zx9speaker_detail_1__price {
+    margin-bottom: 7px;
+  }
+  .photozx9speaker_photos {
+    flex-direction: column;
+    padding-top: 0;
+    padding-bottom: 120px;
+    gap: 20px;
+  }
+  .photozx9speaker_photos__wrsmall {
+    gap: 20px;
+  }
+  .photozx9speaker_photos__1small {
+    background-image: url(../assets/images/adapt375/1SmallDetailSpeaker-1.png);
+    width: 327px;
+  }
+  .photozx9speaker_photos__2small {
+    background-image: url(../assets/images/adapt375/2SmallDetailSpeaker-1.png);
+    width: 327px;
+  }
+  .photozx9speaker_photos__big {
+    background-image: url(../assets/images/adapt375/BigDetailSpeaker-1.png);
+    width: 327px;
+  }
+  .zx9speaker_moreproducts {
+    padding-bottom: 24px;
+  }
+  .zx9speaker_moreproducts__title {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.857143px;
+    margin-bottom: 40px;
+  }
+  .zx9speaker_moreproducts__wrapp {
+    flex-direction: column;
+  }
+  .zx9speaker_moreproducts__itemwrapp {
+    gap: 32px;
+    margin-bottom: 56px;
+  }
+  .zx9speaker_moreproducts__item1, .zx9speaker_moreproducts__item2, .zx9speaker_moreproducts__item3 {
+    width: 327px;
+    height: 120px;
+    margin-bottom: 0;
+  }
+  .zx9speaker_moreproducts__item1 {
+    background-image: url(../assets/images/adapt375/Alsospeakerzx7.png);
+  }
+  .zx9speaker_moreproducts__names {
+    margin-bottom: 0;
+  }
+  .zx9speaker_moreproducts__item2 {
+    background-image: url(../assets/images/adapt375/AlsoXX99Mark_I.png);
+  }
+  .zx9speaker_moreproducts__item3 {
+    background-image: url(../assets/images/adapt375/AlsoXX59.png);
+  }
+  .zx7speaker_detail2 {
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 88px;
+  }
+  .zx7speaker_detail2__photo {
+    width: 327px;
+    height: 327px;
+  }
+  .zx7speaker_detail2__content {
+    gap: 24px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .zx7speaker_detail2__content-title {
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 0;
+  }
+  .zx7speaker_detail2__content-text {
+    margin-bottom: 0;
+  }
+  .zx7speaker_detail2__price {
+    margin-bottom: 7px;
+  }
+  .photozx7speaker_detail2 {
+    flex-direction: column;
+    padding-top: 0px;
+    padding-bottom: 120px;
+    gap: 20px;
+  }
+  .photozx7speaker_detail2__wrsmall {
+    gap: 20px;
+  }
+  .photozx7speaker_detail2__1small {
+    background-image: url(../assets/images/adapt375/1SmallDetailSpeaker-2.png);
+    width: 327px;
+  }
+  .photozx7speaker_detail2__2small {
+    background-image: url(../assets/images/adapt375/2SmallDetailSpeaker-2.png);
+    width: 327px;
+  }
+  .photozx7speaker_detail2__big {
+    background-image: url(../assets/images/adapt375/BigDetailSpeaker-2.png);
+    width: 327px;
+  }
+  .photozx7speaker_moreproducts {
+    padding-bottom: 24px;
+  }
+  .photozx7speaker_moreproducts__title {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.857143px;
+    margin-bottom: 40px;
+  }
+  .photozx7speaker_moreproducts__wrapp {
+    flex-direction: column;
+  }
+  .photozx7speaker_moreproducts__itemwrapp {
+    gap: 32px;
+    margin-bottom: 56px;
+  }
+  .photozx7speaker_moreproducts__1item, .photozx7speaker_moreproducts__2item, .photozx7speaker_moreproducts__3item {
+    width: 327px;
+    height: 120px;
+    margin-bottom: 0;
+  }
+  .photozx7speaker_moreproducts__1item {
+    background-image: url(../assets/images/adapt375/Alsospeakerzx7.png);
+  }
+  .photozx7speaker_moreproducts__names {
+    margin-bottom: 0;
+  }
+  .photozx7speaker_moreproducts__2item {
+    background-image: url(../assets/images/adapt375/AlsoXX99Mark_I.png);
+  }
+  .photozx7speaker_moreproducts__3item {
+    background-image: url(../assets/images/adapt375/AlsoXX59.png);
+  }
+  .yx1wirreless_detail {
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 88px;
+    align-items: start;
+  }
+  .yx1wirreless_detail__photo {
+    width: 327px;
+    height: 327px;
+  }
+  .yx1wirreless_detail__content {
+    gap: 24px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .yx1wirreless_detail__content-title {
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 0;
+  }
+  .yx1wirreless_detail__content-text {
+    margin-bottom: 0;
+  }
+  .yx1wirreless_detail__price {
+    margin-bottom: 7px;
+  }
+  .aboutproduct {
+    flex-direction: column;
+    align-items: start;
+    padding-bottom: 88px;
+    width: 327px;
+    gap: 88px;
+  }
+  .aboutproduct__inbox {
+    gap: 0;
+  }
+  .photosyx1wirreless {
+    flex-direction: column;
+    padding-top: 0px;
+    padding-bottom: 120px;
+    gap: 20px;
+  }
+  .photosyx1wirreless__wrsmall {
+    gap: 20px;
+  }
+  .photosyx1wirreless__1small {
+    background-image: url(../assets/images/adapt375/1SmallDetailearphones.png);
+    width: 327px;
+  }
+  .photosyx1wirreless__2small {
+    background-image: url(../assets/images/adapt375/2SmallDetailearphones.png);
+    width: 327px;
+  }
+  .photosyx1wirreless__big {
+    background-image: url(../assets/images/adapt375/BigDetailearphones.png);
+    width: 327px;
+  }
+  .yx1wirreless_moreproducts {
+    padding-bottom: 24px;
+  }
+  .yx1wirreless_moreproducts__title {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.857143px;
+    margin-bottom: 40px;
+  }
+  .yx1wirreless_moreproducts__wrapp {
+    flex-direction: column;
+  }
+  .yx1wirreless_moreproducts__itemwrapp {
+    gap: 32px;
+    margin-bottom: 56px;
+  }
+  .yx1wirreless_moreproducts__1item, .yx1wirreless_moreproducts__2item, .yx1wirreless_moreproducts__3item {
+    width: 327px;
+    height: 120px;
+    margin-bottom: 0;
+  }
+  .yx1wirreless_moreproducts__1item {
+    background-image: url(../assets/images/adapt375/AlsoXX99Mark_I.png);
+  }
+  .yx1wirreless_moreproducts__names {
+    margin-bottom: 0;
+  }
+  .yx1wirreless_moreproducts__2item {
+    background-image: url(../assets/images/adapt375/AlsoXX59.png);
+  }
+  .yx1wirreless_moreproducts__3item {
+    background-image: url(../assets/images/adapt375/Alsospeakerzx9.png);
+  }
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 100;
+    display: block;
+  }
+  .modal {
+    display: block;
+    position: absolute;
+    top: 75%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+  }
+  .modal__wrapper {
+    width: 327px;
+    min-height: 488px;
+    background-color: #ffffff;
+    padding: 31px 28px;
+    border-radius: 8px;
+    flex-direction: column;
+  }
+  .modal__top {
+    margin-bottom: 31px;
+  }
+  .modal__pdct_count {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1.28571px;
+    text-transform: uppercase;
+    color: #000;
+  }
+  .modal__btn_reset {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    color: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease-in-out;
+  }
+  .modal__btn_reset:hover {
+    color: #D87D4A;
+  }
+  .modal__item-1, .modal__item-2, .modal__item-3 {
+    justify-content: flex-start;
+    margin-bottom: 24px;
+  }
+  .modal__photo-1 {
+    width: 64px;
+    height: 64px;
+    background-color: #F1F1F1;
+    background-image: url(../assets/images/detail/cart_mini/xx99mk2_cart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    margin-right: 16px;
+  }
+  .modal__photo-2 {
+    width: 64px;
+    height: 64px;
+    background-color: #F1F1F1;
+    background-image: url(../assets/images/detail/cart_mini/xx59_cart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    margin-right: 16px;
+  }
+  .modal__photo-3 {
+    width: 64px;
+    height: 64px;
+    background-color: #F1F1F1;
+    background-image: url(../assets/images/detail/cart_mini/ux1_cart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    margin-right: 16px;
+  }
+  .modal__wr_nameprise {
+    width: 153px;
+  }
+  .modal__name {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000;
+  }
+  .modal__price {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .modal__cart__button {
+    width: 271px;
+  }
+  .quantity.quantity_cart {
+    min-width: 96px;
+    height: 32px;
+    gap: 15px;
+  }
+  .total__title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+  }
+  .total__sum {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000;
+  }
+  .checkout {
+    width: 327px;
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+  }
+  .checkout input {
+    background: #fff;
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+    width: 280px;
+    height: 56px;
+    margin-top: 9px;
+  }
+  .checkout h1 {
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    margin-bottom: 32px;
+  }
+  .checkout__wrapper_namemail {
+    flex-direction: column;
+    gap: 0;
+  }
+  .checkout__fieldset {
+    margin-bottom: 8px;
+  }
+  .checkout__shippinginfo .input_adress {
+    width: 280px;
+  }
+  .payment__method {
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 32px;
+  }
+  .payment__method .payment__wrapp_title {
+    height: 35px;
+  }
+  .payment__method-1,
+  .payment__method-2 {
+    width: 280px;
+    padding-right: 120px;
+  }
+  .payment__emoney {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .wrapper .summary768,
+  summary {
+    padding: 32px 24px;
+    width: 327px;
+  }
+  .modal768_checkcart_button {
+    width: 279px;
+  }
+  .overlay_checkout {
+    display: block;
+  }
+  ._thanksfororder {
+    width: 327px;
+    min-height: 600px;
+    padding: 32px;
+    position: absolute;
+    top: 59%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+  }
+  ._thanksfororder__h1 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.857143px;
+    margin-bottom: 16px;
+  }
+  ._thanksfororder__wrthanks {
+    width: 263px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 23px;
+  }
+  ._thanksfororder__total_sum {
+    width: 263px;
+    padding: 15px;
+    height: 92px;
+    border-radius: 0px 0px 8px 8px;
+  }
+  ._thanksfororder__content_order {
+    width: 263px;
+    margin-bottom: 0;
+    border-radius: 8px 8px 0px 0px;
+  }
+  ._thanksfororder__button_order {
+    width: 263px;
+  }
+  ._thanksfororder__p {
+    margin-bottom: 24px;
+  }
+}/*# sourceMappingURL=styles.css.map */
